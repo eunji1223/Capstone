@@ -26,7 +26,7 @@ public class ButtonManager : MonoBehaviour
 
         RectTransform buttonRectTransform = clickedButton.GetComponent<RectTransform>();
         RectTransform levelRectTransform = level.GetComponent<RectTransform>();
-        levelRectTransform.anchoredPosition = new Vector3 (buttonRectTransform.anchoredPosition.x, buttonRectTransform.anchoredPosition.y - 90);
+        levelRectTransform.anchoredPosition = new Vector3 (buttonRectTransform.anchoredPosition.x, buttonRectTransform.anchoredPosition.y - 120);
         level.SetActive(true);
         
     }

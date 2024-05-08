@@ -1,0 +1,1466 @@
+Unity Editor version:    2022.3.13f1 (5f90a5ebde0f)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.3 (Build 23D56)
+Darwin version:          23.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        36864 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/song-eunji/Documents/GitHub/Capstone/Capstone_project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49246
+Successfully changed project path to: /Users/song-eunji/Documents/GitHub/Capstone/Capstone_project
+/Users/song-eunji/Documents/GitHub/Capstone/Capstone_project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8002395200] Host "[IP] 10.10.26.185 [Port] 0 [Flags] 2 [Guid] 2671203557 [EditorId] 2671203557 [Version] 1048832 [Id] OSXEditor(0,song-eunjiui-MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8002395200] Host "[IP] 10.10.26.185 [Port] 0 [Flags] 2 [Guid] 2671203557 [EditorId] 2671203557 [Version] 1048832 [Id] OSXEditor(0,song-eunjiui-MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 1.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/song-eunji/Documents/GitHub/Capstone/Capstone_project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M3 Pro (high power)
+Metal devices available: 1
+0: Apple M3 Pro (high power)
+Using device Apple M3 Pro (high power)
+Initializing Metal device caps: Apple M3 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56533
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.000822 seconds.
+- Loaded All Assemblies, in  0.167 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 50 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.195 seconds
+Domain Reload Profiling: 361ms
+	BeginReloadAssembly (36ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (81ms)
+		LoadAssemblies (36ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (80ms)
+				TypeCache.ScanAssembly (73ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (195ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (165ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (103ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (40ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.242 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.249 seconds
+Domain Reload Profiling: 491ms
+	BeginReloadAssembly (53ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (84ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (89ms)
+			TypeCache.Refresh (82ms)
+				TypeCache.ScanAssembly (73ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (249ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (171ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (23ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (50.9 KB). Loaded Objects now: 3576.
+Memory consumption went from 135.2 MB to 135.1 MB.
+Total: 1.931375 ms (FindLiveObjects: 0.076708 ms CreateObjectMapping: 0.026833 ms MarkObjects: 1.764833 ms  DeleteObjects: 0.062541 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 346.349406 seconds.
+  path: Assets/Documents/Pinky UI/Icon_White/Icon_Checkmark.png
+  artifactKey: Guid(cd290df35dcb768488d4981a9f56e3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Pinky UI/Icon_White/Icon_Checkmark.png using Guid(cd290df35dcb768488d4981a9f56e3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b76a37cadafa5372ba802d8fb3e15a7') in 0.057103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Documents/Pinky UI/Icon_White/Icon_Star.png
+  artifactKey: Guid(bf77a2813dd1c7b44b9c2640ebdb961c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Pinky UI/Icon_White/Icon_Star.png using Guid(bf77a2813dd1c7b44b9c2640ebdb961c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315463360abdbd7795229c389fc6d056') in 0.004115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.189800 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/goods jelly.png
+  artifactKey: Guid(c85d29e8447ea6f44b3e759626bea0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/goods jelly.png using Guid(c85d29e8447ea6f44b3e759626bea0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22906a7a05c9caa982e08f96605cecb') in 0.005755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/Button/help.png
+  artifactKey: Guid(ccfe301e7fef153459b4861590b1e3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/Button/help.png using Guid(ccfe301e7fef153459b4861590b1e3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc6e8f1591a5325d4573c20f567b191') in 0.008908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/b/help.png
+  artifactKey: Guid(a2a183ff089c43a498e88402671a975f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/b/help.png using Guid(a2a183ff089c43a498e88402671a975f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fc9f9f87894c7768a115c2d5319f39') in 0.005009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Documents/Pinky UI/Icon_White/Icon_Bell.png
+  artifactKey: Guid(e68b15d1ec5fbd54599a9989b5ff36a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Pinky UI/Icon_White/Icon_Bell.png using Guid(e68b15d1ec5fbd54599a9989b5ff36a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b887060021689fd4c9bf9616f0f02e30') in 0.003998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_red/b/help.png
+  artifactKey: Guid(8d91ffbbfecaad54a89711489e9e0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/b/help.png using Guid(8d91ffbbfecaad54a89711489e9e0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0fbbbaaa183712e39522d1bc74e420') in 0.004071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/Square button/home.png
+  artifactKey: Guid(1b474da7a8cfef64eb2b2b4dac4744a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/Square button/home.png using Guid(1b474da7a8cfef64eb2b2b4dac4744a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407ab15b93e9931077028981a1c2bf1d') in 0.004343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Button/help.png
+  artifactKey: Guid(0894df7d830a510429bdd163efb65be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Button/help.png using Guid(0894df7d830a510429bdd163efb65be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31563350c013811710da43f2b5af8742') in 0.004877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.190342 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Button/exit.png
+  artifactKey: Guid(d6808a54f5fffe943a9ac18b2e26560f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Button/exit.png using Guid(d6808a54f5fffe943a9ac18b2e26560f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03bd218a3bd3643c8b1e6df09a98384') in 0.012439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/goods coin.png
+  artifactKey: Guid(13cfa01c4a5d0814094b6e53bb7d6885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/goods coin.png using Guid(13cfa01c4a5d0814094b6e53bb7d6885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89c6f050ce08035a944fe5fa8c82a37') in 0.004976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/goods.png
+  artifactKey: Guid(6e73f75ce13a124469c346d4f2a0a254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/goods.png using Guid(6e73f75ce13a124469c346d4f2a0a254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591e2929c19e9ff525588f09b11d6733') in 0.005554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_red/goods.png
+  artifactKey: Guid(bdf47ca946cc642428b02b383b44e309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/goods.png using Guid(bdf47ca946cc642428b02b383b44e309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9602499af97f7b9e122b7c55e9b1eba2') in 0.004186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/Square button/friends.png
+  artifactKey: Guid(027981b21c60327458f3675f8f2511cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/Square button/friends.png using Guid(027981b21c60327458f3675f8f2511cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea59160d381a279258f55375ff9d4a6b') in 0.004692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_green/goods coin.png
+  artifactKey: Guid(47c9f9dee77073148a8b59aaf28d746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/goods coin.png using Guid(47c9f9dee77073148a8b59aaf28d746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fe1f1a3b431522efe243bcc18ddee6') in 0.005085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/goods.png
+  artifactKey: Guid(800f01761e2f00f44ba66b2a3e43ff02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/goods.png using Guid(800f01761e2f00f44ba66b2a3e43ff02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee3208e9a1d38e215bf49c8bce1398c') in 0.004492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.290299 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/candy bar.png
+  artifactKey: Guid(a09e1d58476695d48af4d3c67ca1e8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/candy bar.png using Guid(a09e1d58476695d48af4d3c67ca1e8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0fcebfd533c1e7670f0338f7e8b8a2') in 0.006022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Documents/Pinky UI/Checkboxes/Checkbox_Round_Checkmark_Blue.png
+  artifactKey: Guid(3d1a3371d48a0a1488b5e0b6efb4770b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Pinky UI/Checkboxes/Checkbox_Round_Checkmark_Blue.png using Guid(3d1a3371d48a0a1488b5e0b6efb4770b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498ac963e032c54547fc1e7dcd99238a') in 0.005198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_green/button/exit.png
+  artifactKey: Guid(9c589bf019b942e47b5974686be8a727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/button/exit.png using Guid(9c589bf019b942e47b5974686be8a727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b755f28f299ff22e0d44a26b8aac807') in 0.006091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/coin.png
+  artifactKey: Guid(bee702842f8ed864f935e5f60f850d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/coin.png using Guid(bee702842f8ed864f935e5f60f850d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd5585777599687f0f8c56ac0f93379') in 0.005800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_red/s_b/check.png
+  artifactKey: Guid(bf64810f63f5dae48a2c131f6c17c8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/s_b/check.png using Guid(bf64810f63f5dae48a2c131f6c17c8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208e8cad2d5a86f3115ff16c77db4da5') in 0.005307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/s_button/check.png
+  artifactKey: Guid(78f867360b8a59048a4340aceaa5b868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/s_button/check.png using Guid(78f867360b8a59048a4340aceaa5b868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed9bdd05d65bb7f01568c35dc6bf73c') in 0.004990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Documents/Pinky UI/Checkboxes/Checkbox_Round_Empty_Blue.png
+  artifactKey: Guid(76731fc55f58cbf4db4eb2329c80de15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Pinky UI/Checkboxes/Checkbox_Round_Empty_Blue.png using Guid(76731fc55f58cbf4db4eb2329c80de15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563f397f2fa799a30ef08c02aad40ad3') in 0.007192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Documents/Pinky UI/Dialog_Box/Dialog_Box_Blue.png
+  artifactKey: Guid(53a6963790703c8489c4cb0c3d026cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Pinky UI/Dialog_Box/Dialog_Box_Blue.png using Guid(53a6963790703c8489c4cb0c3d026cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd440f147a13f4d6f9b5ede89c3c6a4af') in 0.005922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.373391 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/text/9.png
+  artifactKey: Guid(8adef68f20ab37145ac99ea3d54c98d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/text/9.png using Guid(8adef68f20ab37145ac99ea3d54c98d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e7f6c860488f690ae74ed48d915055') in 0.005608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/box.png
+  artifactKey: Guid(202177b6b0004194c9a73925af30b426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/box.png using Guid(202177b6b0004194c9a73925af30b426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a834f4fa6cf0668bfb961a4489b9ff') in 0.005101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_green/candy bar.png
+  artifactKey: Guid(389f7ee28bb8fd64b856a0812f5dd053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/candy bar.png using Guid(389f7ee28bb8fd64b856a0812f5dd053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9c977b842be84daf0e75f87ba20ae8') in 0.004547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_green/bar box.png
+  artifactKey: Guid(0947d4d2acf497946abfbd8d4ea43cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/bar box.png using Guid(0947d4d2acf497946abfbd8d4ea43cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57a37178c7b31a347f952772fa031b0') in 0.006785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Documents/Pinky UI/Buttons/Round/Button_Round_Pink.png
+  artifactKey: Guid(4e533b2797390a541a0912643de6bf05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Pinky UI/Buttons/Round/Button_Round_Pink.png using Guid(4e533b2797390a541a0912643de6bf05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e445622326c3561e319a3df446b97d5') in 0.005047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/box.png
+  artifactKey: Guid(7799747eecc87e340bd160fa9f3aaa1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/box.png using Guid(7799747eecc87e340bd160fa9f3aaa1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797d267d2066b6d1b8d3f18d29e76799') in 0.004327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_red/bar.png
+  artifactKey: Guid(b0add21f966f0cd498a4880b53be17d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/bar.png using Guid(b0add21f966f0cd498a4880b53be17d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2548f7174f9ca75366be35bdaf510d8e') in 0.005082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.547468 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/6.png
+  artifactKey: Guid(c5b01292c2594f34eaeaaf44e6eb1d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/6.png using Guid(c5b01292c2594f34eaeaaf44e6eb1d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6712563e12687f0b52db1f21cbc61ce') in 0.011913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Text/8.png
+  artifactKey: Guid(0252d7bd2904f594ea167148c4f94737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Text/8.png using Guid(0252d7bd2904f594ea167148c4f94737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eab9b54cd1243e5893306815b650170') in 0.005100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/Text/6.png
+  artifactKey: Guid(ddb4605843576654595d855a5a2d387e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/Text/6.png using Guid(ddb4605843576654595d855a5a2d387e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376b20345ae63fd1b23894bb83d1d2a3') in 0.006339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/7.png
+  artifactKey: Guid(7b627e12b55df1d4bb022473a53ec1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/7.png using Guid(7b627e12b55df1d4bb022473a53ec1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379038c008b9430e6bf9c3f6ecf2934b') in 0.005250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Text/7.png
+  artifactKey: Guid(c6170392d8bdc4e45afc5dcab0eb7a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Text/7.png using Guid(c6170392d8bdc4e45afc5dcab0eb7a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd712f33c60759c75c0c1346e1ae83db') in 0.005690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_green/text/7.png
+  artifactKey: Guid(8d5d1b1667b4c474480a7758f7fcdbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/text/7.png using Guid(8d5d1b1667b4c474480a7758f7fcdbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b69bc5d1277578fd637bfc292013ba') in 0.005748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_green/text/9.png
+  artifactKey: Guid(0744cd0684b9ebf4198b23e8c555df43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/text/9.png using Guid(0744cd0684b9ebf4198b23e8c555df43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caba332f335bdb2d9bb1b900c5c8c78b') in 0.005841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.915174 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/Text/2.png
+  artifactKey: Guid(ac6e31da4662c264f856a12ae15c6d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/Text/2.png using Guid(ac6e31da4662c264f856a12ae15c6d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b752300505eb2110b8340e3594886e16') in 0.014692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/Text/5.png
+  artifactKey: Guid(7a6034b18634f054eba58913c6f558e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/Text/5.png using Guid(7a6034b18634f054eba58913c6f558e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1252441e15a51f7030945c4a7ab8c580') in 0.006977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_red/txt/4.png
+  artifactKey: Guid(56e3365fad6e41b4296d06918790319d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/txt/4.png using Guid(56e3365fad6e41b4296d06918790319d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f731356e0dfebe6c0f030c987025135c') in 0.005214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/4.png
+  artifactKey: Guid(576315cfba67e3144a10f882728abc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/4.png using Guid(576315cfba67e3144a10f882728abc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a446a157d10198ad4b64a71e89c5a6') in 0.005494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/text/5.png
+  artifactKey: Guid(992df9a06d13da24588ad949b50ad03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/text/5.png using Guid(992df9a06d13da24588ad949b50ad03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12a9c7d2bf7f46723cb4395e3256ce0') in 0.003916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/text/3.png
+  artifactKey: Guid(7a9106d6738c68b4e9e9e1e6462befec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/text/3.png using Guid(7a9106d6738c68b4e9e9e1e6462befec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1852834d4882d4c1579cc1f6042d4c') in 0.005141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_green/text/4.png
+  artifactKey: Guid(a164fd0e5f9b1bc4b9dacdc403ac520b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/text/4.png using Guid(a164fd0e5f9b1bc4b9dacdc403ac520b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c662dc0e21234434a556a908af338c') in 0.004721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Text/6.png
+  artifactKey: Guid(1a763a43f716e2a43bc0b73be976ce55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Text/6.png using Guid(1a763a43f716e2a43bc0b73be976ce55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06201e21fa16ab56e10b5b91ae3a1587') in 0.004206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.031142 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/+.png
+  artifactKey: Guid(ed98146e191ebea478de2e678fc43516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/+.png using Guid(ed98146e191ebea478de2e678fc43516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f8954c966ea8991e9d54ab973c6537') in 0.005898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/text/0.png
+  artifactKey: Guid(2c35b6ddbf283694eb9424814dc4b121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/text/0.png using Guid(2c35b6ddbf283694eb9424814dc4b121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b78e90e0a14f6c06f3eeac9bdd56511') in 0.006097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Text/1.png
+  artifactKey: Guid(2538c64bbfcc8ce4991cd32423fbec9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Text/1.png using Guid(2538c64bbfcc8ce4991cd32423fbec9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83f8f506fc431fb4b159331b6b28edb') in 0.004984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/+ button.png
+  artifactKey: Guid(22af4e74f89a16f428b318cf0c2c025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/+ button.png using Guid(22af4e74f89a16f428b318cf0c2c025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c9ae98123c2260a5b542fd201dcb3a') in 0.005778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_green/text/1.png
+  artifactKey: Guid(4974684f902e6074382cd861fb0dc2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/text/1.png using Guid(4974684f902e6074382cd861fb0dc2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb06d8a8c0116efe6f92e58f3b10260') in 0.003660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/0.png
+  artifactKey: Guid(242579e1a2807f545ac51a76630c4dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/0.png using Guid(242579e1a2807f545ac51a76630c4dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd1bef8239f2eb414aa75ed6b90c57f') in 0.004198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Puzzle stage & settings GUI Pack/Image_green/text/0.png
+  artifactKey: Guid(f86448eb3b6b7984fbc581cac2d03d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/text/0.png using Guid(f86448eb3b6b7984fbc581cac2d03d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74bd9207026c3e1782f112b01c64cc1') in 0.004677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2a069b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.188 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.317 seconds
+Domain Reload Profiling: 505ms
+	BeginReloadAssembly (72ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (80ms)
+		LoadAssemblies (97ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (317ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (172ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (26ms)
+			ProcessInitializeOnLoadAttributes (124ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3605.
+Memory consumption went from 136.9 MB to 136.9 MB.
+Total: 1.852583 ms (FindLiveObjects: 0.099250 ms CreateObjectMapping: 0.035833 ms MarkObjects: 1.687084 ms  DeleteObjects: 0.030166 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 598.326620 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/cursor_left.png
+  artifactKey: Guid(95efdda980552b14a820ba3e58165925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/cursor_left.png using Guid(95efdda980552b14a820ba3e58165925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153f7fec7106386f93a4670de6abe26e') in 0.034111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_cherries.png
+  artifactKey: Guid(479cb6a100abd7f4f8771485dc597b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_cherries.png using Guid(479cb6a100abd7f4f8771485dc597b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16366fb6350de3a09147dacf29b3f62f') in 0.004803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/lvl_lock_block.png
+  artifactKey: Guid(204c16cb9b1289c49bff29ea216a17a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/lvl_lock_block.png using Guid(204c16cb9b1289c49bff29ea216a17a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f76a66433186c376cfdc841983c899') in 0.006029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Flat Icons/flat_icon_fcb.png
+  artifactKey: Guid(955a6730271cc2240bb090c264bf459d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Flat Icons/flat_icon_fcb.png using Guid(955a6730271cc2240bb090c264bf459d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab9b3f3c6a3b605d4e5a8afadc478b3') in 0.003938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/flat_icon_question.png
+  artifactKey: Guid(8e2724246bac59246a6754fd140742a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/flat_icon_question.png using Guid(8e2724246bac59246a6754fd140742a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc88bcd15f371429bd60a43dac306c16') in 0.003188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Panels/panel_start.png
+  artifactKey: Guid(1d445f0c2c13e5e4ca1dcfb7ea05f99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Panels/panel_start.png using Guid(1d445f0c2c13e5e4ca1dcfb7ea05f99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f83a08d205709a529f2a68ea105887a') in 0.004624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_cup.png
+  artifactKey: Guid(aecc8d2e7ddd6f543848b4d7f8b69762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_cup.png using Guid(aecc8d2e7ddd6f543848b4d7f8b69762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d71513589dae6805f568b773bfdce3e') in 0.004697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/icon_cup.png
+  artifactKey: Guid(11d9e83b35b495c40bfca193fb7d40f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/icon_cup.png using Guid(11d9e83b35b495c40bfca193fb7d40f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1dbd360c30021bf3731cfecf3277d7') in 0.003586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/flat_icon_info.png
+  artifactKey: Guid(fcffd57530feae348af8c4c1e106c90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/flat_icon_info.png using Guid(fcffd57530feae348af8c4c1e106c90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b52ed73fac998efc4c25283aed638d') in 0.003084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_lemon.png
+  artifactKey: Guid(cba229dfdc667d440b22d48adc31e487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_lemon.png using Guid(cba229dfdc667d440b22d48adc31e487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a93c9bf8025a50cabbfea7a290b27f7') in 0.003615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/gui_elements_slices.jpg
+  artifactKey: Guid(6439f73e42506e143ac1402b00358ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/gui_elements_slices.jpg using Guid(6439f73e42506e143ac1402b00358ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e39e6939ba45a2b4b95f380d49b999a') in 0.007859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Lvl/lvl_star_single_left.png
+  artifactKey: Guid(470df016d083bf049a13bca3bc769cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Lvl/lvl_star_single_left.png using Guid(470df016d083bf049a13bca3bc769cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57930ecd6f72854cf2d4b68987cffc9') in 0.004445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Panels/panel_top.png
+  artifactKey: Guid(d8b72ad58005f37499933d7882c70cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Panels/panel_top.png using Guid(d8b72ad58005f37499933d7882c70cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e12296efca703f455a62971a2741244') in 0.004743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Flat Icons/flat_icon_question.png
+  artifactKey: Guid(da93bfaf6314fca4a805281edd375d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Flat Icons/flat_icon_question.png using Guid(da93bfaf6314fca4a805281edd375d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb951e8d2d664e837886f6d7628d85c') in 0.003341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_heart.png
+  artifactKey: Guid(93a64c7929fd912438591e2cae44a2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_heart.png using Guid(93a64c7929fd912438591e2cae44a2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0137156df4ba43b41cfcfe3933884a') in 0.003816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/icon_paperclip.png
+  artifactKey: Guid(a5f91f39fdd458f47931e2dfd4060c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/icon_paperclip.png using Guid(a5f91f39fdd458f47931e2dfd4060c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897af402665b7dd77a8143b5c29a5c4b') in 0.004361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_diamond.png
+  artifactKey: Guid(9d7aae250c8ed8d4db204e50329dc030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_diamond.png using Guid(9d7aae250c8ed8d4db204e50329dc030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515bbd14cd2d2fc3acdc6342bcf80b0a') in 0.004506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Flat Icons/flat_icon_twitter.png
+  artifactKey: Guid(e32a9a52583e31f4eaec0f9b86d80b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Flat Icons/flat_icon_twitter.png using Guid(e32a9a52583e31f4eaec0f9b86d80b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932049f21b127b4e724d823bb9d4aa0f') in 0.004604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/lvl_star_3.png
+  artifactKey: Guid(d5acd9fb5ad277d4e910ca456341b838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/lvl_star_3.png using Guid(d5acd9fb5ad277d4e910ca456341b838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4794b1d86b100267132eb92ca7ec75c7') in 0.004148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/icon_green_back.png
+  artifactKey: Guid(329417092e459a9429d9a5607a4f5137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/icon_green_back.png using Guid(329417092e459a9429d9a5607a4f5137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f683c1e98fe8298f92143a679f250740') in 0.003943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Flat Icons/flat_icon_menu.png
+  artifactKey: Guid(e2e3508a5f78a13478d11608e46e2f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Flat Icons/flat_icon_menu.png using Guid(e2e3508a5f78a13478d11608e46e2f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e24c85d68912ea98f6d243b7e58a6a') in 0.003637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/icon_blue_back.png
+  artifactKey: Guid(2fc7ab0ea198d1f47a1cb7384da64a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/icon_blue_back.png using Guid(2fc7ab0ea198d1f47a1cb7384da64a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f23a1bedbcfd3f6941869a7d4c3eb22') in 0.004200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/lvl_block_hover.png
+  artifactKey: Guid(945622ed0b4522b4293cbba5f19b2849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/lvl_block_hover.png using Guid(945622ed0b4522b4293cbba5f19b2849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3022519c5a228f9a4caac50e02e8f6e4') in 0.004285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Cursors/cursor_right.png
+  artifactKey: Guid(dd247d25a74b3824e9a566ac9cfbe292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Cursors/cursor_right.png using Guid(dd247d25a74b3824e9a566ac9cfbe292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a85c76d743fd155f9c601335954211') in 0.004525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/cursor_up.png
+  artifactKey: Guid(37f4a8317180c424db547a9873eb1da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/cursor_up.png using Guid(37f4a8317180c424db547a9873eb1da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdff5ec0a5f1597fb0296b2fab46520') in 0.004882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Lvl/lvl_lock_block_pressed.png
+  artifactKey: Guid(c4baf21f65af25740947108dbee38546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Lvl/lvl_lock_block_pressed.png using Guid(c4baf21f65af25740947108dbee38546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f002f54f9d0dbdebb6e2677b37867282') in 0.004426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/icons_slices.psd
+  artifactKey: Guid(4105b388110b1954fa1ef1ef64339e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/icons_slices.psd using Guid(4105b388110b1954fa1ef1ef64339e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b820c9e74d31d3783b475f310594a5') in 0.006795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/panel.png
+  artifactKey: Guid(71f63b1f4765031468f0bb542fe2f086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/panel.png using Guid(71f63b1f4765031468f0bb542fe2f086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8198648d4f2f4e3696fd71a168704216') in 0.004449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/icon_candy.png
+  artifactKey: Guid(e54dfb04204381642a400a60368a1aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/icon_candy.png using Guid(e54dfb04204381642a400a60368a1aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a127a7d6c1e949a4410172d9977d17') in 0.004009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Lvl/lvl_lock_block.png
+  artifactKey: Guid(9c734a62742ae154c962bf66554395dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Lvl/lvl_lock_block.png using Guid(9c734a62742ae154c962bf66554395dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b88f045fd0773313a1e6469bcd29582') in 0.007956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/panel_start_slices.jpg
+  artifactKey: Guid(e61354e83de142f47bb77e16ce19c6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/panel_start_slices.jpg using Guid(e61354e83de142f47bb77e16ce19c6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e3d33b803581fe94f1750706304269') in 0.007311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/flat_icon_close.png
+  artifactKey: Guid(f0278260aa10dda4bad10811c398d60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/flat_icon_close.png using Guid(f0278260aa10dda4bad10811c398d60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2050929cb28d830c76520228ec94cec5') in 0.004756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Cursors/cursor_up.png
+  artifactKey: Guid(b6c0256dde714bc448b7233d81081341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Cursors/cursor_up.png using Guid(b6c0256dde714bc448b7233d81081341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1db6b38817f6121cc2af8766171055') in 0.003520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/item_slot.png
+  artifactKey: Guid(00863521d2f889f4280fdd4715d8bb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/item_slot.png using Guid(00863521d2f889f4280fdd4715d8bb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3109a8dfecb9b13f316392562a2986f2') in 0.003760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Lvl/lvl_block_hover.png
+  artifactKey: Guid(5eb4593c5eca7004997772b80affcf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Lvl/lvl_block_hover.png using Guid(5eb4593c5eca7004997772b80affcf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21bfdc8e61a95b786f321c3ab29bed7') in 0.004119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/lvl_star_1.png
+  artifactKey: Guid(13cce6f8a24cc2940b1e4c7bb34e00d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/lvl_star_1.png using Guid(13cce6f8a24cc2940b1e4c7bb34e00d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c31930487d5b4edb19f71842f37a2d') in 0.003306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_apple.png
+  artifactKey: Guid(8be25189fe39173419ad0ed766b49cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_apple.png using Guid(8be25189fe39173419ad0ed766b49cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9e99362d69ac0d72ea8046d0fca71f') in 0.004374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/icon_coins.png
+  artifactKey: Guid(92497200ab7f0584fa58871994a50858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/icon_coins.png using Guid(92497200ab7f0584fa58871994a50858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59315891e209a18351b4ba27ee512030') in 0.003887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/lvl_lock_block_pressed.png
+  artifactKey: Guid(92426f65dd6e78c48b6657600ae23882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/lvl_lock_block_pressed.png using Guid(92426f65dd6e78c48b6657600ae23882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71198a437328d3e4bb8121f6b4405c05') in 0.004100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_flower.png
+  artifactKey: Guid(5548aa229b2514f4788c83d985c71e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_flower.png using Guid(5548aa229b2514f4788c83d985c71e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfd1ecb90157245826612b514792265') in 0.003879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/icon_strawberry.png
+  artifactKey: Guid(50890b2fdca927347b70c1039fe57099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/icon_strawberry.png using Guid(50890b2fdca927347b70c1039fe57099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0db8f568aca6b8059a58919a142610') in 0.005011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_green_back.png
+  artifactKey: Guid(b65459947d37cde4184dce4a1ca52863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_green_back.png using Guid(b65459947d37cde4184dce4a1ca52863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd8141ec26fa7c83dd435a8c1ca8c37') in 0.003131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Flat Icons/flat_icon_back.png
+  artifactKey: Guid(a659cdf07744db04786ca6d3824f3ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Flat Icons/flat_icon_back.png using Guid(a659cdf07744db04786ca6d3824f3ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdd7ad0636122a52ba2c548035bc547') in 0.005435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/icon_bomb.png
+  artifactKey: Guid(c44178f904e583e45b2c0bce3d8db6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/icon_bomb.png using Guid(c44178f904e583e45b2c0bce3d8db6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b0f79e6cc2fe3d4d79e810fc004ff8') in 0.004217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/item_slot_hover.png
+  artifactKey: Guid(62ff1b882c2591044985eb9ff52cf8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/item_slot_hover.png using Guid(62ff1b882c2591044985eb9ff52cf8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1baf874ffc3815b4f0edfb7b2805709') in 0.003426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_shovel.png
+  artifactKey: Guid(fd3d0be27bde0d14196bd055a921a981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_shovel.png using Guid(fd3d0be27bde0d14196bd055a921a981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed24360179e280aa8cacae5d77b255d') in 0.005926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Lvl/lvl_star_single_center.png
+  artifactKey: Guid(008ce7d12eb64f74fa15a63dfa3d6c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Lvl/lvl_star_single_center.png using Guid(008ce7d12eb64f74fa15a63dfa3d6c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb99b361981195208662c0814192b7f1') in 0.003252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/icon_cryon.png
+  artifactKey: Guid(148b738ee04708747bb54f1952603e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Icons/icon_cryon.png using Guid(148b738ee04708747bb54f1952603e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c133bacd523ff24c09bca5b9536166') in 0.003493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/lvl_star_single_center.png
+  artifactKey: Guid(4ecdab3736eef7341825dc6d1e2239c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/lvl_star_single_center.png using Guid(4ecdab3736eef7341825dc6d1e2239c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e7c01e97f890e377759fa9872dabc1') in 0.004959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_button.png
+  artifactKey: Guid(7f55ef9c9dbed70419f585d454fad4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/icon_button.png using Guid(7f55ef9c9dbed70419f585d454fad4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2f0bcd810e98acabbdfee83d2a9cea') in 0.004248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/flat_icon_twitter.png
+  artifactKey: Guid(4d3f64dcb66f7ee47b2421582ece3c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/flat_icon_twitter.png using Guid(4d3f64dcb66f7ee47b2421582ece3c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4f33368242e36f860a85617ba07b19') in 0.003745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/lvl_star_2.png
+  artifactKey: Guid(81d7c759f61d34d47a4d40368036c0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/lvl_star_2.png using Guid(81d7c759f61d34d47a4d40368036c0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16b583ae01d68fdcea338f4a535ef12') in 0.003729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Lvl/lvl_block.png
+  artifactKey: Guid(b9fcd50da7785f243ade89118753c516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Lvl/lvl_block.png using Guid(b9fcd50da7785f243ade89118753c516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5516866b65e8ac14a710876b7b3dde36') in 0.003616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/flat_icon_back.png
+  artifactKey: Guid(216c4230fd542934d8a4ed6a94ec939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/flat_icon_back.png using Guid(216c4230fd542934d8a4ed6a94ec939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2585821286726d5d978e19d3f05907') in 0.004432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Lvl/lvl_star_1.png
+  artifactKey: Guid(7447508782dc7b44bb35c965ba01d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Lvl/lvl_star_1.png using Guid(7447508782dc7b44bb35c965ba01d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849e5278c7fd8a4aaa9aa5bebf51f406') in 0.003613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/item_slot.png
+  artifactKey: Guid(e8baf4501efac8248a58c4642c748e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/item_slot.png using Guid(e8baf4501efac8248a58c4642c748e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670c4d78125b901a9ad228c3464f29eb') in 0.004803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.847747 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/reward_slot_info.png
+  artifactKey: Guid(0ad710ecd8375f64d9dc7c84e9970348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/reward_slot_info.png using Guid(0ad710ecd8375f64d9dc7c84e9970348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754b0e0f5cc72363e02d6c6f9b7756d2') in 0.009585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Rewards/reward_stars_2.png
+  artifactKey: Guid(eaa141f45a62fa848aa62abe21ff5cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Rewards/reward_stars_2.png using Guid(eaa141f45a62fa848aa62abe21ff5cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b9109b246635f68ac133c7ca762c04') in 0.005092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Textfield/scrollbar_pointer.png
+  artifactKey: Guid(6d59c14bafa8e964da8cfbcf089bc0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Textfield/scrollbar_pointer.png using Guid(6d59c14bafa8e964da8cfbcf089bc0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e15f53ddb601e6fe38084cf3d5f566') in 0.004106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Textfield/scrollbar.png
+  artifactKey: Guid(60864a6eb1b80bd47b1317fed5105fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Textfield/scrollbar.png using Guid(60864a6eb1b80bd47b1317fed5105fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d50aaea202f466aa9272d197ee55920') in 0.004644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Rewards/reward_stars_3.png
+  artifactKey: Guid(c9aa06eb754ea5642b95c46e82797022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Rewards/reward_stars_3.png using Guid(c9aa06eb754ea5642b95c46e82797022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f19c39c9235be965c3b625f491826c') in 0.005235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/reward_slots.png
+  artifactKey: Guid(740f2238b061a6d4182fe12f53e24d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/reward_slots.png using Guid(740f2238b061a6d4182fe12f53e24d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b26adc047764748d28db6fb2ba7084') in 0.003705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Rewards/reward_stars_empty.png
+  artifactKey: Guid(37f07fbaf7f9add4c94fe0ba1ff5db43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Rewards/reward_stars_empty.png using Guid(37f07fbaf7f9add4c94fe0ba1ff5db43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd085df5c89c8ba0baf8baa5c9b5fd250') in 0.004234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/scrollbar_pointer.png
+  artifactKey: Guid(274c62aa3771c6d47bd03315a0fb9595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/scrollbar_pointer.png using Guid(274c62aa3771c6d47bd03315a0fb9595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b84f8a44963f8ed53dc102b5520444') in 0.002915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.532924 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Settings/settings_box.png
+  artifactKey: Guid(8962ab125556c8640af7d301d5c1e476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Settings/settings_box.png using Guid(8962ab125556c8640af7d301d5c1e476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81e867c4edce2e02630010983c655f2') in 0.010246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/settings_checkbox_lock.png
+  artifactKey: Guid(c8a6fa5c2fe0d5a44aef5b5b11925971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/settings_checkbox_lock.png using Guid(c8a6fa5c2fe0d5a44aef5b5b11925971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22665f2d5f27c4958bbfc985ec4e1aa') in 0.004196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.397890 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/settings_checkbox_on.png
+  artifactKey: Guid(c2970a15d17fc144a987f3de86f2eebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/settings_checkbox_on.png using Guid(c2970a15d17fc144a987f3de86f2eebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6eba35b9251e1e5d45731552d5c22f0') in 0.003943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Settings/slider_blue.png
+  artifactKey: Guid(a6ed557d69d79eb478d940b220e22718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Settings/slider_blue.png using Guid(a6ed557d69d79eb478d940b220e22718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ff3ff8ac695728d8419a7a2a7195e7') in 0.003815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.346241 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Settings/slider_pointer.png
+  artifactKey: Guid(6d438c1b0313e3142bed5d126b51a5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Settings/slider_pointer.png using Guid(6d438c1b0313e3142bed5d126b51a5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e0c61945cdab53b052b6f53001fcb8') in 0.006014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.604625 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Panels/start_top_logo_sample.png
+  artifactKey: Guid(f7a1834c4fb052e458eedbf557d1361e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Panels/start_top_logo_sample.png using Guid(f7a1834c4fb052e458eedbf557d1361e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8088e60a4cedf1c624507b436cd07619') in 0.007254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/store_block_coins.png
+  artifactKey: Guid(40df6b50781a6f24596e0b9dd0f331e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/store_block_coins.png using Guid(40df6b50781a6f24596e0b9dd0f331e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da61ea332ff5aff147e0490955ac2ae') in 0.004114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Textfield/text_sep_big.png
+  artifactKey: Guid(98203d30acd83e34c9e595fbac90025d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Textfield/text_sep_big.png using Guid(98203d30acd83e34c9e595fbac90025d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a39653b4d8ffe0c233ed257bf174052') in 0.003999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Store/store_block_pressed.png
+  artifactKey: Guid(b336028b079232248828a6b706d78611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Store/store_block_pressed.png using Guid(b336028b079232248828a6b706d78611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe559eb9b2df75c0667f3d10f3b905f') in 0.004577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Store/store_block_hover.png
+  artifactKey: Guid(c3f71d78b1098784797b5677e775ee93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Store/store_block_hover.png using Guid(c3f71d78b1098784797b5677e775ee93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48948356b9ce6ad5ced01de2a09a65f') in 0.004032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 109.976313 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/counter.png
+  artifactKey: Guid(12e7302113bd89042b608d3a04b271e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/counter.png using Guid(12e7302113bd89042b608d3a04b271e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7193216bf56f75dd892f6f3d434ac7e2') in 0.010957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Cursors/cursor_down.png
+  artifactKey: Guid(218a0cd7508a9ed40bb3eb869407728d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Cursors/cursor_down.png using Guid(218a0cd7508a9ed40bb3eb869407728d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f9321711b3ec2d21fa3714197769d9') in 0.005202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Cursors/cursor_left.png
+  artifactKey: Guid(af9eacf110ea17a46897803ffa0dda98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Cursors/cursor_left.png using Guid(af9eacf110ea17a46897803ffa0dda98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e341da340c09717532f74701b0c7c3d') in 0.004385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.086838 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_big_hover.png
+  artifactKey: Guid(a288a6118b2c36d479a794891c67ad7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_big_hover.png using Guid(a288a6118b2c36d479a794891c67ad7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b350c5d1e1687153935c25d82f6f12') in 0.005534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_round_big_hover.png
+  artifactKey: Guid(9208f2b60dedbd34b97e27d5082e956c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_round_big_hover.png using Guid(9208f2b60dedbd34b97e27d5082e956c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6e2e7ebfa6e001201637d5acafb72b') in 0.008356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_big_pressed.png
+  artifactKey: Guid(a4b4f14e1cd729c48bbd0c727d752a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_big_pressed.png using Guid(a4b4f14e1cd729c48bbd0c727d752a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421df3fc44ebbd498c17e58622b76353') in 0.003442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Buttons/btn_round_small_hover.png
+  artifactKey: Guid(22fa643c384b4aa44bf1ff7d02b95284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Buttons/btn_round_small_hover.png using Guid(22fa643c384b4aa44bf1ff7d02b95284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16c7b192ad39ec0451e5c802be5aaca') in 0.003895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_round_small_hover.png
+  artifactKey: Guid(942aa81d1f54ac146a6d17c968e799e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_round_small_hover.png using Guid(942aa81d1f54ac146a6d17c968e799e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8902d238cee7db1870f89aecb264f0') in 0.005395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Buttons/btn_round_big_pressed.png
+  artifactKey: Guid(cdf0ea7a2f0ce164282bb46f09829e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Buttons/btn_round_big_pressed.png using Guid(cdf0ea7a2f0ce164282bb46f09829e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eece596457f5c21b63dcdd50f5bc55c') in 0.004184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Buttons/btn_round_small.png
+  artifactKey: Guid(df9be07827def45438516120da142677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Buttons/btn_round_small.png using Guid(df9be07827def45438516120da142677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9876d92894b8610d64950b0f1b2284') in 0.005745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_round_big.png
+  artifactKey: Guid(242fffb8377372b47895ec20f5a5ec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_round_big.png using Guid(242fffb8377372b47895ec20f5a5ec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e03467495b7f36c112b79d99ef462b7') in 0.005120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.640203 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_+_hov.png
+  artifactKey: Guid(586bb35e2c91ea64da42d36b077e6c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_+_hov.png using Guid(586bb35e2c91ea64da42d36b077e6c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a3db09b38883397af4da3e0c1d4a3c') in 0.004391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Buttons/btn_-_pressed.png
+  artifactKey: Guid(d1847bbd20774924aa0123677274faf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Buttons/btn_-_pressed.png using Guid(d1847bbd20774924aa0123677274faf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a88743a3ef4352d521e2d3de2e7144') in 0.003576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Buttons/btn_-_reg.png
+  artifactKey: Guid(11d5273305926bc43be579590ce733ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Buttons/btn_-_reg.png using Guid(11d5273305926bc43be579590ce733ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92b2fc9a3370687827e67f44be23662') in 0.003771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_big.png
+  artifactKey: Guid(89baf4f0611f73b44b141d0544ada6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_big.png using Guid(89baf4f0611f73b44b141d0544ada6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd78e01e36ffb86c9261706158c144f7') in 0.004752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Buttons/btn_-_hov.png
+  artifactKey: Guid(3ab4ecb1189bd194ba192985f2b75c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Buttons/btn_-_hov.png using Guid(3ab4ecb1189bd194ba192985f2b75c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b415d5d422ec343606ebc213d6667fe2') in 0.004223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_+_reg.png
+  artifactKey: Guid(02c93becf4507d946ab3b95cc5152dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/btn_+_reg.png using Guid(02c93becf4507d946ab3b95cc5152dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6798131882e561710a854468ab0a3a0b') in 0.003443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Buttons/btn_big.png
+  artifactKey: Guid(8b0164b2762b2a74e943687851008211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Buttons/btn_big.png using Guid(8b0164b2762b2a74e943687851008211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0723ad3b4300ccf38c924ad044466ae') in 0.003987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.111080 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/achiev_box.png
+  artifactKey: Guid(27d799fe9c8cb994892380a91a1a0562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/achiev_box.png using Guid(27d799fe9c8cb994892380a91a1a0562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066ab2861ca6dec561dbb2998977b7df') in 0.004351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/achiev_box_hover.png
+  artifactKey: Guid(8bcb05249e54729489f4398b6e98186a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/achiev_box_hover.png using Guid(8bcb05249e54729489f4398b6e98186a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc9eac3894f2ef1b894fddf2d9feb4f') in 0.004217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Achievements!/achiev_stat_que.png
+  artifactKey: Guid(daad0e87766d6624ea685b3a164a05bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Achievements!/achiev_stat_que.png using Guid(daad0e87766d6624ea685b3a164a05bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83645dca3cda327d63a8682307f11060') in 0.004794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Background/background.jpg
+  artifactKey: Guid(8e2b8f361a036c14ea60e3477a8b0a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Background/background.jpg using Guid(8e2b8f361a036c14ea60e3477a8b0a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1833411241419b87582ef8e13b063b20') in 0.007168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/achiev_stat_done.png
+  artifactKey: Guid(73519c5178f6daa4488f99dcee792dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/psd files/preview/_all_slices/achiev_stat_done.png using Guid(73519c5178f6daa4488f99dcee792dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eecfab9435930a880c29b6598fb2fd2') in 0.004223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Achievements!/achiev_box_pressed.png
+  artifactKey: Guid(fb8a46611eec8de498e97e3ab2cbd1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/mobile_cartoon_GUI/GUI Elements/Achievements!/achiev_box_pressed.png using Guid(fb8a46611eec8de498e97e3ab2cbd1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f140b8ac303b91d50b57c7578cd98c') in 0.002874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
