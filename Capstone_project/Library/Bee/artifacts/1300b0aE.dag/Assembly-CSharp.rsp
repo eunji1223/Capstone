@@ -380,6 +380,7 @@
 "Assets/02.Scripts/ButtonManager.cs"
 "Assets/02.Scripts/LoadingSceneController.cs"
 "Assets/02.Scripts/MoveManager.cs"
+"Assets/02.Scripts/OptionManager.cs"
 "Assets/02.Scripts/SceneLoadTester.cs"
 "Assets/02.Scripts/SoundManager.cs"
 "Assets/HONETi/mobile_cartoon_GUI/Scripts/switch_scenes.cs"
