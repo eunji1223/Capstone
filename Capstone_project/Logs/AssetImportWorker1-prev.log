@@ -1,30 +1,23 @@
-Unity Editor version:    2022.3.13f1 (5f90a5ebde0f)
-Branch:                  2022.3/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 14.3 (Build 23D56)
-Darwin version:          23.3.0
-Architecture:            arm64
-Running under Rosetta:   NO
-Available memory:        36864 MB
 Using pre-set license
-Pro License: YES
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ko' Physical Memory: 3955 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity 2022.3.13f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-/Users/song-eunji/Documents/GitHub/Capstone/Capstone_project
+C:/Users/Gram/Documents/GitHub/Capstone/Capstone_project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49246
-Successfully changed project path to: /Users/song-eunji/Documents/GitHub/Capstone/Capstone_project
-/Users/song-eunji/Documents/GitHub/Capstone/Capstone_project
+1259
+Successfully changed project path to: C:/Users/Gram/Documents/GitHub/Capstone/Capstone_project
+C:/Users/Gram/Documents/GitHub/Capstone/Capstone_project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -56,67 +49,67 @@ Successfully changed project path to: /Users/song-eunji/Documents/GitHub/Capston
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8002395200] Host "[IP] 10.10.26.185 [Port] 0 [Flags] 2 [Guid] 2828586941 [EditorId] 2828586941 [Version] 1048832 [Id] OSXEditor(0,song-eunjiui-MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11684] Host "[IP] 192.168.219.139 [Port] 0 [Flags] 2 [Guid] 3728367622 [EditorId] 3728367622 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QF1A2RS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8002395200] Host "[IP] 10.10.26.185 [Port] 0 [Flags] 2 [Guid] 2828586941 [EditorId] 2828586941 [Version] 1048832 [Id] OSXEditor(0,song-eunjiui-MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11684] Host "[IP] 192.168.219.139 [Port] 0 [Flags] 2 [Guid] 3728367622 [EditorId] 3728367622 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QF1A2RS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 75.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/song-eunji/Documents/GitHub/Capstone/Capstone_project/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Gram/Documents/GitHub/Capstone/Capstone_project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
- preferred device: Apple M3 Pro (high power)
-Metal devices available: 1
-0: Apple M3 Pro (high power)
-Using device Apple M3 Pro (high power)
-Initializing Metal device caps: Apple M3 Pro
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     1977 MB
+    Driver:   31.0.101.2111
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56515
+Mono path[0] = 'C:/Program Files/Unity 2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.000790 seconds.
-- Loaded All Assemblies, in  0.160 seconds
+Register platform support module: C:/Program Files/Unity 2022.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.032587 seconds.
+- Loaded All Assemblies, in  2.794 seconds
+Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 49 ms
-Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.198 seconds
-Domain Reload Profiling: 358ms
-	BeginReloadAssembly (35ms)
+- Finished resetting the current domain, in  1.943 seconds
+Domain Reload Profiling: 4730ms
+	BeginReloadAssembly (1201ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (77ms)
-		LoadAssemblies (35ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (282ms)
+	RebuildNativeTypeToScriptingClass (81ms)
+	initialDomainReloadingComplete (333ms)
+	LoadAllAssembliesAndSetupDomain (889ms)
+		LoadAssemblies (1173ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (76ms)
-			TypeCache.Refresh (75ms)
-				TypeCache.ScanAssembly (68ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (198ms)
+		AnalyzeDomain (877ms)
+			TypeCache.Refresh (865ms)
+				TypeCache.ScanAssembly (770ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1944ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (168ms)
+		SetupLoadedEditorAssemblies (1534ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (102ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (501ms)
+			SetLoadedEditorAssemblies (34ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (43ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
+			BeforeProcessingInitializeOnLoad (18ms)
+			ProcessInitializeOnLoadAttributes (680ms)
+			ProcessInitializeOnLoadMethodAttributes (300ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,1344 +117,76 @@ Domain Reload Profiling: 358ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.263 seconds
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+- Loaded All Assemblies, in 10.705 seconds
+Refreshing native plugins compatible for Editor in 55.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.271 seconds
-Domain Reload Profiling: 534ms
-	BeginReloadAssembly (59ms)
+- Finished resetting the current domain, in  7.518 seconds
+Domain Reload Profiling: 18007ms
+	BeginReloadAssembly (2170ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
+		DisableScriptedObjects (92ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (160ms)
-		LoadAssemblies (92ms)
+		CreateAndSetChildDomain (220ms)
+	RebuildCommonClasses (659ms)
+	RebuildNativeTypeToScriptingClass (129ms)
+	initialDomainReloadingComplete (524ms)
+	LoadAllAssembliesAndSetupDomain (6993ms)
+		LoadAssemblies (5994ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (95ms)
-			TypeCache.Refresh (87ms)
-				TypeCache.ScanAssembly (78ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (271ms)
+		AnalyzeDomain (2434ms)
+			TypeCache.Refresh (2286ms)
+				TypeCache.ScanAssembly (2153ms)
+			ScanForSourceGeneratedMonoScriptInfo (74ms)
+			ResolveRequiredComponents (68ms)
+	FinalizeReload (7532ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (184ms)
+		SetupLoadedEditorAssemblies (6301ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (231ms)
+			SetLoadedEditorAssemblies (31ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (25ms)
-			ProcessInitializeOnLoadAttributes (138ms)
-			ProcessInitializeOnLoadMethodAttributes (9ms)
-			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (773ms)
+			ProcessInitializeOnLoadAttributes (4737ms)
+			ProcessInitializeOnLoadMethodAttributes (493ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (6ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (41ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.91 seconds
+Refreshing native plugins compatible for Editor in 75.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (50.9 KB). Loaded Objects now: 3576.
-Memory consumption went from 135.0 MB to 134.9 MB.
-Total: 2.039750 ms (FindLiveObjects: 0.093584 ms CreateObjectMapping: 0.030125 ms MarkObjects: 1.847625 ms  DeleteObjects: 0.067916 ms)
+Unloading 3136 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (56.9 KB). Loaded Objects now: 3601.
+Memory consumption went from 131.6 MB to 131.6 MB.
+Total: 44.790400 ms (FindLiveObjects: 12.273300 ms CreateObjectMapping: 7.324700 ms MarkObjects: 20.905300 ms  DeleteObjects: 4.244600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 316.461366 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/facebook.png
-  artifactKey: Guid(fd6563dd6e06ba64585df5f61c6eed82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/facebook.png using Guid(fd6563dd6e06ba64585df5f61c6eed82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19c4f23c9b0d5bb5237bf56694ffa5d') in 0.049450 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 24.179260 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/item box_jelly.png
-  artifactKey: Guid(13970f1d17051db43b69130e5a951eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/item box_jelly.png using Guid(13970f1d17051db43b69130e5a951eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cd6ddd23177676c870ec055897d557') in 0.010714 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/jelly.png
-  artifactKey: Guid(17d7fe1d152e44c429b80bb7ecbad707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/jelly.png using Guid(17d7fe1d152e44c429b80bb7ecbad707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e8aacd6a5347f138693df0e3e4e90b') in 0.005483 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Documents/Pinky UI/Progress_Bar/Progress_Bar_Foreground_Blue.png
-  artifactKey: Guid(10d2b9f1eae97a040925d4a67400cc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Progress_Bar/Progress_Bar_Foreground_Blue.png using Guid(10d2b9f1eae97a040925d4a67400cc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2bb924405331dd7e8f26f83560dcf6') in 0.003477 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Button/quit.png
-  artifactKey: Guid(f2aec82e54e1e51479aa09a54da13439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Button/quit.png using Guid(f2aec82e54e1e51479aa09a54da13439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a557a81535f8a2fa98ad0305e1085933') in 0.004671 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/line.png
-  artifactKey: Guid(b7d15dce14a31754e9d444d941f099fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/line.png using Guid(b7d15dce14a31754e9d444d941f099fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61e008d908106884c2a016d446b0601') in 0.003784 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/jelly.png
-  artifactKey: Guid(a09b81883fd657243ae113396d6d132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/jelly.png using Guid(a09b81883fd657243ae113396d6d132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52861e4239f572bb77ccc2067cbcaa7') in 0.006336 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/s_b/plus.png
-  artifactKey: Guid(37db37801eca8be4398312cd6b1a746e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/s_b/plus.png using Guid(37db37801eca8be4398312cd6b1a746e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76282a6278af77e6601347c94903bb5') in 0.005653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/b/setting.png
-  artifactKey: Guid(900db2fe929bf9d49b7e2773477a2877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/b/setting.png using Guid(900db2fe929bf9d49b7e2773477a2877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57cdbc901dd3b6aff6d91d4a991f5a6') in 0.005965 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Documents/Pinky UI/Progress_Bar/Progress_Bar_Background_Pink.png
-  artifactKey: Guid(8be2ced0c73326945864308cb74a39e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Progress_Bar/Progress_Bar_Background_Pink.png using Guid(8be2ced0c73326945864308cb74a39e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67001f6734d1965f6d0f6e6de82792a') in 0.003801 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/b/ok.png
-  artifactKey: Guid(31beb8beac7291a428f525a69855ef27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/b/ok.png using Guid(31beb8beac7291a428f525a69855ef27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f8b7ad26bf6ab1cce1222a84561bfd') in 0.004159 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/off.png
-  artifactKey: Guid(56b1250cf36035148bfba5b94b37a17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/off.png using Guid(56b1250cf36035148bfba5b94b37a17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76aff063f2a17dc9c3740fc00519f27') in 0.004157 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/sound.png
-  artifactKey: Guid(6c696f274268d9249a91a14a0cd02537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/sound.png using Guid(6c696f274268d9249a91a14a0cd02537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9dbc352fcdd2d90d88b3d854a7ff1c') in 0.003635 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/s_button/pause.png
-  artifactKey: Guid(42fc6c01ddb6b344fb13c0c2ae01d60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/s_button/pause.png using Guid(42fc6c01ddb6b344fb13c0c2ae01d60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673e732535697b79413b13a7be9dcd03') in 0.004214 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/s_b/play.png
-  artifactKey: Guid(a169f7e73d096bf4896f966d1a0d0ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/s_b/play.png using Guid(a169f7e73d096bf4896f966d1a0d0ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4762d4176ae2c891a6eef44a8de6d7b') in 0.004177 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/star.png
-  artifactKey: Guid(dc597dcbf74c3234c995ef7378998a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/star.png using Guid(dc597dcbf74c3234c995ef7378998a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42634516196817dff91c265c03339293') in 0.004727 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/button/restart.png
-  artifactKey: Guid(a4fde9cce8bd4fc47a5619797c51870b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/button/restart.png using Guid(a4fde9cce8bd4fc47a5619797c51870b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a1b5e672c140661d987fefdfb2a7df') in 0.004065 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/s_button/set.png
-  artifactKey: Guid(68c502d45029cff4fb0adef7faf8d3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/s_button/set.png using Guid(68c502d45029cff4fb0adef7faf8d3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10bfc4d9c76406b6c630934adf5e33c') in 0.004514 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Square button/shop.png
-  artifactKey: Guid(c9006952a20a9cd4f93164c8a9e10b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Square button/shop.png using Guid(c9006952a20a9cd4f93164c8a9e10b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3723a96f12f625b318c18af33693c664') in 0.005100 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/Square button/setting.png
-  artifactKey: Guid(92ad8af980df7014495ff53c6a2285f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/Square button/setting.png using Guid(92ad8af980df7014495ff53c6a2285f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92935818d62dc3fb925e383929e238e2') in 0.006102 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000650 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/jelly.png
-  artifactKey: Guid(738e2ba3a3c385d4e80dfaa00d6b38fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/jelly.png using Guid(738e2ba3a3c385d4e80dfaa00d6b38fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3639e0f6dc3ea0e946e158ae71e834') in 0.004789 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000964 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/b/restart.png
-  artifactKey: Guid(4fb41b937a3dea544ab484688e1f18dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/b/restart.png using Guid(4fb41b937a3dea544ab484688e1f18dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4badbae1ec0fe552b28201900641d02f') in 0.004967 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/s_button/set.png
-  artifactKey: Guid(6d1377844c7efef49b530ee8ce66b778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/s_button/set.png using Guid(6d1377844c7efef49b530ee8ce66b778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51549b667f7fba01d2f9014c1453aec') in 0.004918 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/Button/settings.png
-  artifactKey: Guid(7d9fd9225614f9943a849503b21c24b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/Button/settings.png using Guid(7d9fd9225614f9943a849503b21c24b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cbb9280b2deb5bd2de437d5d99e95d') in 0.004938 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/text/speed.png
-  artifactKey: Guid(39c67664b21e4e3418ef037da8d44dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/text/speed.png using Guid(39c67664b21e4e3418ef037da8d44dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7f790b4c8f93a9e6aa7184f13b7d17') in 0.004650 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/jelly.png
-  artifactKey: Guid(5d10556eacfce5344b8d87e5d203f4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/jelly.png using Guid(5d10556eacfce5344b8d87e5d203f4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c6dbd1f589a6a6ee14ac9d1459d154') in 0.006412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.002956 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/s_button/return.png
-  artifactKey: Guid(e1ff8b906eb73e54394a23c0eda91edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/s_button/return.png using Guid(e1ff8b906eb73e54394a23c0eda91edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd938841102ceda2c9cba2cecaabc18') in 0.005423 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/s_b/shop.png
-  artifactKey: Guid(8f058d5e7842192449274996d0e2b5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/s_b/shop.png using Guid(8f058d5e7842192449274996d0e2b5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8e6d2e0754e08a1cbce36fec01e115') in 0.004495 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/stage text.png
-  artifactKey: Guid(88891008d132a5844a57e9d8905f0c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/stage text.png using Guid(88891008d132a5844a57e9d8905f0c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2989836ddd0e58200e6385213ddc459') in 0.004277 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Documents/Pinky UI/Toggle_Button/Toggle_Button_On_Pink.png
-  artifactKey: Guid(35b532649b2b4604d908b9b2f6c19849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Toggle_Button/Toggle_Button_On_Pink.png using Guid(35b532649b2b4604d908b9b2f6c19849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816478d0b47031c099cf1f03a3679342') in 0.003993 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/s_b/post.png
-  artifactKey: Guid(11ac206554611fa4097ae80bdd8f6e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/s_b/post.png using Guid(11ac206554611fa4097ae80bdd8f6e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3e5cf381f6ab5cd5e1f06279180859') in 0.005051 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/off.png
-  artifactKey: Guid(26796a188fca3f74abd410937a1cfb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/off.png using Guid(26796a188fca3f74abd410937a1cfb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ad8807503d46190a33750f573febaf') in 0.004318 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/line.png
-  artifactKey: Guid(fab2c578cb484a5409d09f22b03aa917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/line.png using Guid(fab2c578cb484a5409d09f22b03aa917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769d17d3085d50d526283794d48da7b2') in 0.004646 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/button/quit.png
-  artifactKey: Guid(f20e24b72461e8c46892075ce7066f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/button/quit.png using Guid(f20e24b72461e8c46892075ce7066f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41f3caab45df6644f90aa93197d4a9c') in 0.004106 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/b/restart.png
-  artifactKey: Guid(cacda52f5cae36740914dfb9e9840ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/b/restart.png using Guid(cacda52f5cae36740914dfb9e9840ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee05fc77ebedb2074693f8e553122c5') in 0.003742 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Documents/Pinky UI/Sliders/Slider_Knob_Pink.png
-  artifactKey: Guid(a76e41c5c051a144bab55fa486e1c296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Sliders/Slider_Knob_Pink.png using Guid(a76e41c5c051a144bab55fa486e1c296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a11d5f3f1e9cb5ad9be40dd2de308a') in 0.003903 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/x.png
-  artifactKey: Guid(fa011a4b8671c904abf9e369d9939776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/x.png using Guid(fa011a4b8671c904abf9e369d9939776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e340ca60d20900099bc4fa5ed330c0') in 0.004273 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Documents/Pinky UI/Progress_Bar/Progress_Bar_Background_Blue.png
-  artifactKey: Guid(4f972257c494abb4eb5338b552c0e9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Progress_Bar/Progress_Bar_Background_Blue.png using Guid(4f972257c494abb4eb5338b552c0e9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e5d28c1c28ff7deddf5ff223736a4f') in 0.003768 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/text/stage text.png
-  artifactKey: Guid(c93434eec64cc274fb1c7713c80fbca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/text/stage text.png using Guid(c93434eec64cc274fb1c7713c80fbca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08710da4f3cf102f63036d9f5d62239') in 0.004115 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/b/quit.png
-  artifactKey: Guid(43ec108daab75a5418ff0864a181589e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/b/quit.png using Guid(43ec108daab75a5418ff0864a181589e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb980f29c0aa9977f3512da33948cd7') in 0.004815 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/s_button/shop.png
-  artifactKey: Guid(96a79ebe2e3946a41b6e2dbc57ceb72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/s_button/shop.png using Guid(96a79ebe2e3946a41b6e2dbc57ceb72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a0d4fe1e05d1b193b598ed9830fd96') in 0.006374 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/text/music.png
-  artifactKey: Guid(7c7abcfb68685594890f951ef9459d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/text/music.png using Guid(7c7abcfb68685594890f951ef9459d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9aae75cf348b4c31da114fe74d563f') in 0.005112 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/off.png
-  artifactKey: Guid(373f0d2033dff1a43af706b92034bd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/off.png using Guid(373f0d2033dff1a43af706b92034bd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9247f5016ecd8a5fee86aefceb48931') in 0.004705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/jelly bar.png
-  artifactKey: Guid(f3d6c9b3e6da0764b9e95b4e6a6ddf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/jelly bar.png using Guid(f3d6c9b3e6da0764b9e95b4e6a6ddf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22034a9869d31266afae2dffc50df6fc') in 0.003273 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/s_button/return.png
-  artifactKey: Guid(965a193c4ac5d114d9f1512636bf05a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/s_button/return.png using Guid(965a193c4ac5d114d9f1512636bf05a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0dcb5c381c97238087cc5f039ccd4f') in 0.004921 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/s_button/sound1.png
-  artifactKey: Guid(e5fd1c7f9a70b5449ab5329754ec2f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/s_button/sound1.png using Guid(e5fd1c7f9a70b5449ab5329754ec2f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d4633c7833791c4734c55f138d58d8') in 0.004442 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/on.png
-  artifactKey: Guid(43a335b43af1622479c511a7f0a314dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/on.png using Guid(43a335b43af1622479c511a7f0a314dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae2604de33118d23aa00ced3d8eabc5') in 0.005602 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/s_b/music1.png
-  artifactKey: Guid(a017bba5818852943ae01ef7d69768ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/s_b/music1.png using Guid(a017bba5818852943ae01ef7d69768ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7476675b1c2453dfb770abe55e11340e') in 0.004660 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/star box.png
-  artifactKey: Guid(d87e0c7b37f7dcc48bfd54be3b71c7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/star box.png using Guid(d87e0c7b37f7dcc48bfd54be3b71c7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3c7884f9eebaca100244788aa80d67') in 0.005633 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/s_b/play.png
-  artifactKey: Guid(a9e4c36a320771e4aa8af2dd3c44d0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/s_b/play.png using Guid(a9e4c36a320771e4aa8af2dd3c44d0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6481aab9e30026ca5a430903961cc2b') in 0.004900 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/star box.png
-  artifactKey: Guid(4baf0733311cad74994cffacaf884bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/star box.png using Guid(4baf0733311cad74994cffacaf884bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a66fda084ce3bd2fe052e0c3e99fc1') in 0.004618 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/Text/speed.png
-  artifactKey: Guid(c0bc846011c094949af1e1842ac7cb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/Text/speed.png using Guid(c0bc846011c094949af1e1842ac7cb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63239855b8026c027bff6d4155ad4ce') in 0.004587 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/b/setting.png
-  artifactKey: Guid(39a053ff0928ecb4caed6119fdef2ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/b/setting.png using Guid(39a053ff0928ecb4caed6119fdef2ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee858b2e18b22c174e3880019d005012') in 0.004748 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/on.png
-  artifactKey: Guid(1bb499147ade09a4290d1f976f22e034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/on.png using Guid(1bb499147ade09a4290d1f976f22e034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9fed85c7595e0b73f4274a56647f01') in 0.006861 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Button/restart.png
-  artifactKey: Guid(cfa3b3ed872a3a64daa8a5bb386042e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Button/restart.png using Guid(cfa3b3ed872a3a64daa8a5bb386042e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b966aae3ccf90decd2fd255ab5308d4b') in 0.005065 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Documents/Pinky UI/Toggle_Button/Toggle_Button_Off_Blue.png
-  artifactKey: Guid(fc4007930cee0bf46b4c1a87e0666409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Toggle_Button/Toggle_Button_Off_Blue.png using Guid(fc4007930cee0bf46b4c1a87e0666409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c681d636d21720cf9f10d0b8a6342e7') in 0.003473 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/Text/music.png
-  artifactKey: Guid(5316e917966ec76449ff9b7c358ab9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/Text/music.png using Guid(5316e917966ec76449ff9b7c358ab9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4121e45cadd5e797453a8e04d6a2eb58') in 0.004407 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Documents/Pinky UI/Sliders/Slider_Background_Blue.png
-  artifactKey: Guid(397e1e064ee4a2e4189863ec3bbef596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Sliders/Slider_Background_Blue.png using Guid(397e1e064ee4a2e4189863ec3bbef596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a373ade069bed5867c17c2a2ac3b81de') in 0.003096 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/x.png
-  artifactKey: Guid(fe9a5775fd6ad894e846631ce9794598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/x.png using Guid(fe9a5775fd6ad894e846631ce9794598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b1d544d44ffdc778733a21d58acfa3') in 0.004674 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/text/sound.png
-  artifactKey: Guid(37359761d0d211443856539e2547ad94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/text/sound.png using Guid(37359761d0d211443856539e2547ad94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599b79447482addba47c06b5dc0a2199') in 0.005453 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/s_b/shop.png
-  artifactKey: Guid(c5b305b749b71b84da15e9ac805471fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/s_b/shop.png using Guid(c5b305b749b71b84da15e9ac805471fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fb793a9449f84c6221553ca3641637') in 0.005390 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/button/ok.png
-  artifactKey: Guid(295c7111297118d418ae4e0e831dc078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/button/ok.png using Guid(295c7111297118d418ae4e0e831dc078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc90a7d626972d2f6939d981edc979d') in 0.004034 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Square button/menu.png
-  artifactKey: Guid(956c2a4a9ec0c5e459569d5d8a09ad98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Square button/menu.png using Guid(956c2a4a9ec0c5e459569d5d8a09ad98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd62b76a25c2a5bb11c915fc38dbb550') in 0.005143 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/Button/resume.png
-  artifactKey: Guid(857e4ad3a8d497e43842fedf7306dda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/Button/resume.png using Guid(857e4ad3a8d497e43842fedf7306dda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19c2bc7eb5ce9e5ceb6864b97f8503e') in 0.003831 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/button/quit.png
-  artifactKey: Guid(5e805ba11aed3a347839dc29edc49128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/button/quit.png using Guid(5e805ba11aed3a347839dc29edc49128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2726f2c7ee9122a1c3c89d2236582f') in 0.005049 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/Text/stage text.png
-  artifactKey: Guid(eaace3585660c154093e738737df9097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/Text/stage text.png using Guid(eaace3585660c154093e738737df9097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5dae21add1940475290f77b1f40b08b') in 0.004961 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/s_button/shop.png
-  artifactKey: Guid(63f091fd3bbfd7a4f883d710a078b876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/s_button/shop.png using Guid(63f091fd3bbfd7a4f883d710a078b876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd62bbb258fe54c26073fc7d4d96f49e') in 0.005464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/s_button/post.png
-  artifactKey: Guid(ac8990fabcb224c43b009fb05a9baab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/s_button/post.png using Guid(ac8990fabcb224c43b009fb05a9baab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096155e1d14bb849fcecd3c01d50c207') in 0.004301 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/text/stage text.png
-  artifactKey: Guid(77a8043c3c3244c4fbdf835800c97bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/text/stage text.png using Guid(77a8043c3c3244c4fbdf835800c97bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb073cf0a40763065893e2313a3947a') in 0.005488 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/button/start.png
-  artifactKey: Guid(5a596d936899c2f46a5564b9b0f45d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/button/start.png using Guid(5a596d936899c2f46a5564b9b0f45d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8306f2249a6980970b3fab174ddec4') in 0.003983 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/x_button.png
-  artifactKey: Guid(15e91df8e2fc74a489862940a3ae24f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/x_button.png using Guid(15e91df8e2fc74a489862940a3ae24f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714d840ec7b55a983d2dcddfaca3909c') in 0.004615 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Text/stage text.png
-  artifactKey: Guid(8d01c90a83b48824fa991ee2ee332536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Text/stage text.png using Guid(8d01c90a83b48824fa991ee2ee332536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72dedb82e9a4acbef581139b9bdafa6') in 0.004276 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/star box.png
-  artifactKey: Guid(8fcb16bc09114084e9c2e864e4318143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/star box.png using Guid(8fcb16bc09114084e9c2e864e4318143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0cebd6fa1298872de178ff5820a3e42') in 0.005140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/stage.png
-  artifactKey: Guid(b4af768a35b6f99449f6eb0788cc404d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/stage.png using Guid(b4af768a35b6f99449f6eb0788cc404d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20719f3235698a59cf84cb81e1203ae2') in 0.005484 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/s_b/return.png
-  artifactKey: Guid(920a437ff71c795429b387ab8aaca31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/s_b/return.png using Guid(920a437ff71c795429b387ab8aaca31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8806bd53c7fb0e677d1bbb8ce0c833d7') in 0.004422 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/s_button/pause.png
-  artifactKey: Guid(3d8cfacb4b21aac4bbd489da5da0824b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/s_button/pause.png using Guid(3d8cfacb4b21aac4bbd489da5da0824b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c86a9052f8527b7477534680cefb9a') in 0.005196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/s_button/play.png
-  artifactKey: Guid(301006d277e323b47a4c4a61bf6a5335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/s_button/play.png using Guid(301006d277e323b47a4c4a61bf6a5335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b7ee6c695bb916967bb0a44cd2f895') in 0.005646 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Square button/music1.png
-  artifactKey: Guid(63ad52ad258437842a480c3b99fd28a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Square button/music1.png using Guid(63ad52ad258437842a480c3b99fd28a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9722b5dfd948d382a88cbcb5f29ce0') in 0.005141 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Square button/set.png
-  artifactKey: Guid(d8ef130b5fa45fd46bda2bef07d974c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Square button/set.png using Guid(d8ef130b5fa45fd46bda2bef07d974c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac069b8387668413c878b0e5bd1ab7a6') in 0.004939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/off.png
-  artifactKey: Guid(1a432c2cfced2f44ba69f616f19d044d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/off.png using Guid(1a432c2cfced2f44ba69f616f19d044d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c8d5451a08179ad3bffff5cae12f65') in 0.004240 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/music.png
-  artifactKey: Guid(3266d7771bd9dac4383217d0cfaa001e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/music.png using Guid(3266d7771bd9dac4383217d0cfaa001e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed5628c5c59091218f8062fdc53531d') in 0.003960 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Documents/Pinky UI/Sliders/Slider_Foreground_Blue.png
-  artifactKey: Guid(1c75960ffd129c74188d0fa6cf700883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Sliders/Slider_Foreground_Blue.png using Guid(1c75960ffd129c74188d0fa6cf700883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa7eb96259b0d64a72e8673058d1d33') in 0.003431 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/star box.png
-  artifactKey: Guid(b5bd3f31b053aed4ebaf56227cab641b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/star box.png using Guid(b5bd3f31b053aed4ebaf56227cab641b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f0a8fe1e8d55d9c7478aa7a5bed545') in 0.004346 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/txt/music.png
-  artifactKey: Guid(2be49958f1e7e7f4eaf3a8d3534df240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/txt/music.png using Guid(2be49958f1e7e7f4eaf3a8d3534df240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d26f8b1db26fef585e4423908aaf91') in 0.005005 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/line.png
-  artifactKey: Guid(2be0bc8852a5d2c46b4dc305af67bf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/line.png using Guid(2be0bc8852a5d2c46b4dc305af67bf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444f508c3ccba7e6dfa21f4dac14e812') in 0.003086 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/button/start.png
-  artifactKey: Guid(27a5ab6c817fdec4b835c9050514fa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/button/start.png using Guid(27a5ab6c817fdec4b835c9050514fa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e29c61f0756f22830bfbedfabd17f8') in 0.004698 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/s_b/share.png
-  artifactKey: Guid(ef9eb17e7f31f1b478aa2a89760416c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/s_b/share.png using Guid(ef9eb17e7f31f1b478aa2a89760416c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b950a5c6975d1d354f1c900553ef3f20') in 0.004700 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/sound.png
-  artifactKey: Guid(7a392473fb9b22b4c9422cc51bd5aebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/sound.png using Guid(7a392473fb9b22b4c9422cc51bd5aebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74125cd5310c0db375ff689ae08b7c2b') in 0.004205 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Documents/Pinky UI/Toggle_Button/Toggle_Button_Off_Pink.png
-  artifactKey: Guid(cca174b95b243f247a708a184bc99d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Toggle_Button/Toggle_Button_Off_Pink.png using Guid(cca174b95b243f247a708a184bc99d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1726d59f7ba907602aaa270b7c17ff3') in 0.003213 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/s_button/ranking.png
-  artifactKey: Guid(1ab27d4068177094995e429818ef58df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/s_button/ranking.png using Guid(1ab27d4068177094995e429818ef58df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8782bab7a0f6d1eb52fa2f04bdea56ea') in 0.004998 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Button/setting.png
-  artifactKey: Guid(5c6c1f33d597a1c42804c31db11dd51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Button/setting.png using Guid(5c6c1f33d597a1c42804c31db11dd51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2f9fd2ef90f85a705533b21a4b89a8') in 0.004597 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Documents/Pinky UI/Progress_Bar/Progress_Bar_Foreground_Pink.png
-  artifactKey: Guid(a35cb4ee76fb7084dbeb55e8d85ed13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Progress_Bar/Progress_Bar_Foreground_Pink.png using Guid(a35cb4ee76fb7084dbeb55e8d85ed13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52036f0b5dc0e077a43fe9131a29e500') in 0.003604 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/speed.png
-  artifactKey: Guid(a94c982ad837a184a9a6948d7b429b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/speed.png using Guid(a94c982ad837a184a9a6948d7b429b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5efdd32d46889ab53933be43f663057') in 0.003804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/s_b/sound1.png
-  artifactKey: Guid(c608052aafc86984ca82923076934258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/s_b/sound1.png using Guid(c608052aafc86984ca82923076934258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5389cdba3e66d644e118c2ad9ed1d0b') in 0.005600 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/stage.png
-  artifactKey: Guid(f8d36686876a91a40834d72832cf649c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/stage.png using Guid(f8d36686876a91a40834d72832cf649c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4135f021945f549cea871de579fc31ec') in 0.005030 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/Button/quit.png
-  artifactKey: Guid(7d2ef8125c0a57149a33424eb12afd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/Button/quit.png using Guid(7d2ef8125c0a57149a33424eb12afd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfb57fb5804f42457a7d36b00c8c53b') in 0.004829 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Square button/post.png
-  artifactKey: Guid(c343610c30ad7e341af4d12799872595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Square button/post.png using Guid(c343610c30ad7e341af4d12799872595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587a9d591520b3cff2305de1dc472b6d') in 0.005124 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/Button/ok.png
-  artifactKey: Guid(bf065e8d2b0d2c04cbb67701fcdd4544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/Button/ok.png using Guid(bf065e8d2b0d2c04cbb67701fcdd4544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd265786ece7635351d8402d86568f395') in 0.004460 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/s_b/pause.png
-  artifactKey: Guid(7a00e14f7ccde2e4085b39a0dc6fc930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/s_b/pause.png using Guid(7a00e14f7ccde2e4085b39a0dc6fc930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b840969a47663cc6d81c4da124c790') in 0.005873 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Square button/plus.png
-  artifactKey: Guid(b8da07e0b0cdc644499ece8728842eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Square button/plus.png using Guid(b8da07e0b0cdc644499ece8728842eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe172b29ad6b15e78230f42b781f1c9') in 0.005190 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.149042 seconds.
-  path: Assets/Documents/Pinky UI/Icon_White/Icon_Dot.png
-  artifactKey: Guid(d444fc22dc6d8124eb893d77582713a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Icon_White/Icon_Dot.png using Guid(d444fc22dc6d8124eb893d77582713a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365248a37126d2ebdcb450b13769720a') in 0.010452 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Documents/Pinky UI/Icon_White/Icon_Settings.png
-  artifactKey: Guid(379f035139e19ac41aa52075a3ce75fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Icon_White/Icon_Settings.png using Guid(379f035139e19ac41aa52075a3ce75fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7876db403ab9c3111f3f8d656b9f656e') in 0.004738 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/s_button/information.png
-  artifactKey: Guid(4d5557cac0b4ed440b34cc2d04dbb9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/s_button/information.png using Guid(4d5557cac0b4ed440b34cc2d04dbb9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a03d12b65368ce96dd027d27d60954b') in 0.006044 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Documents/Pinky UI/Icon_White/Icon_Question.png
-  artifactKey: Guid(61860dade0859bc4382440ca7ec0bc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Icon_White/Icon_Question.png using Guid(61860dade0859bc4382440ca7ec0bc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0a67db47a1c526603a953fd50f5e4f') in 0.004061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Documents/Pinky UI/Icon_White/Icon_Exit.png
-  artifactKey: Guid(4e1c06b3711e6b84ab3089a2a8d86251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Icon_White/Icon_Exit.png using Guid(4e1c06b3711e6b84ab3089a2a8d86251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbb184f2ee381db54eb44fdfc7b7d88') in 0.004701 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Documents/Pinky UI/Icon_White/Icon_Sound.png
-  artifactKey: Guid(673d41345020b0f4bac1b2371859c539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Icon_White/Icon_Sound.png using Guid(673d41345020b0f4bac1b2371859c539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25414e04cc92726c8c0a1dd3b713e62') in 0.004896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Documents/Pinky UI/Icon_White/Icon_Play.png
-  artifactKey: Guid(342b484b08205244e82334672a68d0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Icon_White/Icon_Play.png using Guid(342b484b08205244e82334672a68d0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f1f40b7152cc4844db4796e01e884a') in 0.004406 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Documents/Pinky UI/Icon_White/Icon_Home.png
-  artifactKey: Guid(b2132fc342dc04f459682233dc469d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Icon_White/Icon_Home.png using Guid(b2132fc342dc04f459682233dc469d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ba0188dd27a82f2814ddd3005c94bc') in 0.006193 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Documents/Pinky UI/Icon_White/Icon_Info.png
-  artifactKey: Guid(427f264d60e344a4cb096b813789aff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Icon_White/Icon_Info.png using Guid(427f264d60e344a4cb096b813789aff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3a5746a3e942b3b9f8b9f567c03fbb') in 0.004438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Square button/information.png
-  artifactKey: Guid(766494c0fc710be4d8ab9a633bed94af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Square button/information.png using Guid(766494c0fc710be4d8ab9a633bed94af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178df05d72a4a055d1f9e78063bae163') in 0.005616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.192611 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/goods jelly.png
-  artifactKey: Guid(0b7d24aa5c71add4dbfdd85f131667f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/goods jelly.png using Guid(0b7d24aa5c71add4dbfdd85f131667f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2b08e28637473f848ece5f2ece1128') in 0.005429 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/goods jelly.png
-  artifactKey: Guid(e29babf1b68936d41ba9d42663ef8914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/goods jelly.png using Guid(e29babf1b68936d41ba9d42663ef8914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71dc23d049c6fcaaea72415917aab35e') in 0.006638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/s_b/home.png
-  artifactKey: Guid(7d9b81e69a520da4780afba3307f4d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/s_b/home.png using Guid(7d9b81e69a520da4780afba3307f4d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f340850c752666aa3bbad231629e84f3') in 0.007291 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Square button/home.png
-  artifactKey: Guid(b93109852453e6946aaf18222838a896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Square button/home.png using Guid(b93109852453e6946aaf18222838a896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8a5d54d5e47886ab4ad618916e05eb') in 0.004542 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/s_b/home.png
-  artifactKey: Guid(2df5ddc68c4472d43b75fc1f59763079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/s_b/home.png using Guid(2df5ddc68c4472d43b75fc1f59763079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecee83f646b286a0d06a9bd0503cb4bf') in 0.004433 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/s_button/home.png
-  artifactKey: Guid(db29b69e2ef9fe54997f788ff04f171a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/s_button/home.png using Guid(db29b69e2ef9fe54997f788ff04f171a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c6b4136f32e974a79524005049d483') in 0.006405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/goods jelly.png
-  artifactKey: Guid(3b65451688d9fa342b0452991bc90243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/goods jelly.png using Guid(3b65451688d9fa342b0452991bc90243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0dd1cfaa517a5db693ccfdc51f012d3') in 0.004190 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.188552 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/b/exit.png
-  artifactKey: Guid(a9aba066b1fb8094ba1e60087649a91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/b/exit.png using Guid(a9aba066b1fb8094ba1e60087649a91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d19bcd1733e2136fbbb5e8879e2ba4') in 0.009957 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/goods.png
-  artifactKey: Guid(653092db9e2c4d046980acb06734105b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/goods.png using Guid(653092db9e2c4d046980acb06734105b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0424fb834d0de10d60bf54465dddeaf') in 0.005150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/goods.png
-  artifactKey: Guid(a281f41e6703e88409c7ee4a0e67d741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/goods.png using Guid(a281f41e6703e88409c7ee4a0e67d741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712c9820a66909dea88749ea9049e0f4') in 0.005011 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/goods coin.png
-  artifactKey: Guid(0c3a399b9e30d1b469bc1a30f525cc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/goods coin.png using Guid(0c3a399b9e30d1b469bc1a30f525cc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5b52646f71269c2084eb327e76d9da') in 0.005089 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/s_button/friend.png
-  artifactKey: Guid(a75980e548b0f8a4db7ef2e64c5ebd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/s_button/friend.png using Guid(a75980e548b0f8a4db7ef2e64c5ebd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06697a150eef80a096c62fe228365b53') in 0.006026 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/goods coin.png
-  artifactKey: Guid(1709086c99edddf41825206c4b7ca9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/goods coin.png using Guid(1709086c99edddf41825206c4b7ca9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f11893bd239bc81c70076ee8b98db33') in 0.004960 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/b/exit.png
-  artifactKey: Guid(b885797a3eb90f74cb080e193d106c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/b/exit.png using Guid(b885797a3eb90f74cb080e193d106c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24b1a156648d524d5263f4115ca1f4f') in 0.004605 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.290450 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/candy bar.png
-  artifactKey: Guid(ccf15d81a2920354aa2f8854783a95d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/candy bar.png using Guid(ccf15d81a2920354aa2f8854783a95d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa863a7153e4df99d5e524b577fc093') in 0.005908 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/candy bar.png
-  artifactKey: Guid(1aeb4b16053a15040a02dbec0558d2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/candy bar.png using Guid(1aeb4b16053a15040a02dbec0558d2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7efe973bd3b92e31e248741850edab4') in 0.005166 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/Button/exit.png
-  artifactKey: Guid(f34b2bc753aef4542b41d9e8b0624016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/Button/exit.png using Guid(f34b2bc753aef4542b41d9e8b0624016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d5d7bac9267b0f80ddc264406ef7be') in 0.006033 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/Square button/check.png
-  artifactKey: Guid(c7bc7010f3faf6041be72d172b34cbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/Square button/check.png using Guid(c7bc7010f3faf6041be72d172b34cbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be70ce0862314238ff66c549d523ce1') in 0.005196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/s_button/check.png
-  artifactKey: Guid(26b8e798f7fb2ad429e6108d72f1d85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/s_button/check.png using Guid(26b8e798f7fb2ad429e6108d72f1d85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99a507d115880c8974ff7290512ebe7') in 0.005894 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Documents/Pinky UI/Checkboxes/Checkbox_Round_Empty_Pink.png
-  artifactKey: Guid(58ee06205b88b614484cf438c7a3bc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Checkboxes/Checkbox_Round_Empty_Pink.png using Guid(58ee06205b88b614484cf438c7a3bc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2f0b2e94ff3723b34b97e7dac0dc14') in 0.004793 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/s_b/check.png
-  artifactKey: Guid(3cf85df19ea3a9c48b298a4faa6cdd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/s_b/check.png using Guid(3cf85df19ea3a9c48b298a4faa6cdd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998eae7b617785fc2d45a31a4082cb25') in 0.007595 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.379778 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/bar.png
-  artifactKey: Guid(4583774c720a19b4b9e6f304ebc89917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/bar.png using Guid(4583774c720a19b4b9e6f304ebc89917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3785cbc358d647a68509aafcc5a3dfd6') in 0.004158 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/bar.png
-  artifactKey: Guid(58267d4e77b520746aabf2cba97a595c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/bar.png using Guid(58267d4e77b520746aabf2cba97a595c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2384640e35da7fe09ab7d25abba8fb84') in 0.004798 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/bar box.png
-  artifactKey: Guid(9a8035426c3220a4cbae8c7830c7632b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/bar box.png using Guid(9a8035426c3220a4cbae8c7830c7632b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9976c64795a14e5a393c91f842b27073') in 0.003251 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/box.png
-  artifactKey: Guid(83fce0d829b19e54981bcaec8dfe8fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/box.png using Guid(83fce0d829b19e54981bcaec8dfe8fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1025d805ebe4e298a71cdc73cc5120b4') in 0.005477 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Documents/Pinky UI/Buttons/Oval_Rectangle/Button_Oval_Rectangle_Blue.png
-  artifactKey: Guid(5c496139447c40d46ae3cbcda9c82b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Buttons/Oval_Rectangle/Button_Oval_Rectangle_Blue.png using Guid(5c496139447c40d46ae3cbcda9c82b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81daf57b2eb4ab9bd9a68f09511dfdde') in 0.004048 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/box.png
-  artifactKey: Guid(9c1e15ce258b75b479c38de4b37da8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/box.png using Guid(9c1e15ce258b75b479c38de4b37da8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e5a5dd15601a1465a7bf1c2bd51916') in 0.004804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Documents/Pinky UI/Buttons/Round/Button_Round_Blue.png
-  artifactKey: Guid(8caff66cbf3895c4bb3c9b3ab0e0fc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Pinky UI/Buttons/Round/Button_Round_Blue.png using Guid(8caff66cbf3895c4bb3c9b3ab0e0fc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8376d6ac42571728e42e0007a272e2') in 0.004564 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 4.552970 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/text/6.png
-  artifactKey: Guid(7efdbf078e412f242b7e4b9bc86bea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/text/6.png using Guid(7efdbf078e412f242b7e4b9bc86bea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177a917ede5ae73cd2cf96b5426ff3df') in 0.011353 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/txt/7.png
-  artifactKey: Guid(5bed0c1c1ff6bf94ababf9a933c19b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/txt/7.png using Guid(5bed0c1c1ff6bf94ababf9a933c19b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860b262e5cdd67096eec78e546e1fdd9') in 0.005356 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/txt/8.png
-  artifactKey: Guid(3a3e77f192862d242b71404ff4e77291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/txt/8.png using Guid(3a3e77f192862d242b71404ff4e77291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a3724830fbead8fc3a2e5a3687ecba') in 0.006383 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/9.png
-  artifactKey: Guid(b92af1a3781450946b0deef5b4982fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/9.png using Guid(b92af1a3781450946b0deef5b4982fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d18e1bfb4b87ded6c0294360a97024') in 0.005437 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/Text/8.png
-  artifactKey: Guid(577e72f1ef0b9294caa4eeddbd3b9f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/Text/8.png using Guid(577e72f1ef0b9294caa4eeddbd3b9f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f9ddfbecf23f0238febaa129e2858e') in 0.005724 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/8.png
-  artifactKey: Guid(08ade4eb6cd7e7949b62e1ddc355dc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/8.png using Guid(08ade4eb6cd7e7949b62e1ddc355dc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac09c1c9463d60ae27072e4ef2db008') in 0.005690 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/Text/7.png
-  artifactKey: Guid(7f650be9ca81d914c956c8e8e19f92e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/Text/7.png using Guid(7f650be9ca81d914c956c8e8e19f92e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65955774890d859bd5501211533ef294') in 0.005795 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.915472 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/2.png
-  artifactKey: Guid(1b64a1fe54eb3eb45a461548eb461db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/2.png using Guid(1b64a1fe54eb3eb45a461548eb461db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca471b9e5d61725a392a14df1ea72d2') in 0.012198 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/3.png
-  artifactKey: Guid(5d5c8508eedc5e649a5444ed20394493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/3.png using Guid(5d5c8508eedc5e649a5444ed20394493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91efaf202756744ceef42a3a38c4dde4') in 0.006828 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/txt/3.png
-  artifactKey: Guid(5cf00fcc3bed5154eab2d206b4901095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/txt/3.png using Guid(5cf00fcc3bed5154eab2d206b4901095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6c926fed0c495dfaf7d05460d876e5') in 0.006266 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/text/5.png
-  artifactKey: Guid(990e90445ee6f6b4dbdf469726bac7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/text/5.png using Guid(990e90445ee6f6b4dbdf469726bac7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab72229f0a30076906abaeb4c1f6e05f') in 0.005335 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/text/3.png
-  artifactKey: Guid(ef04fe1bb5347be4eae4feafea83158c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/text/3.png using Guid(ef04fe1bb5347be4eae4feafea83158c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad41474e539a1b5cc5098fb02e35735') in 0.004673 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Text/3.png
-  artifactKey: Guid(81836386a03969949bdc8c6dfea46b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Text/3.png using Guid(81836386a03969949bdc8c6dfea46b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63617f57865d7a212792580ab8b709e8') in 0.005704 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_orange/Text/3.png
-  artifactKey: Guid(ed5a54fe08d997d418a7c533ae18afed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_orange/Text/3.png using Guid(ed5a54fe08d997d418a7c533ae18afed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854ad0ef32f0da912ffb6b73514a4081') in 0.004705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.035933 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_green/+.png
-  artifactKey: Guid(1345c0f7b87d2d14d9ee89951de86f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_green/+.png using Guid(1345c0f7b87d2d14d9ee89951de86f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3689346745b17ca92904b43f278e9450') in 0.005667 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_purple/Text/2.png
-  artifactKey: Guid(b34610f4d906b174eb67ffd6e313f5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_purple/Text/2.png using Guid(b34610f4d906b174eb67ffd6e313f5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117a66dbf84dc4ae48fe85c665b482a0') in 0.004674 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/txt/1.png
-  artifactKey: Guid(90f01ea495188e2469ab1350f29bb7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/txt/1.png using Guid(90f01ea495188e2469ab1350f29bb7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e4a2cd249bb33b56b79cd5887707b2') in 0.004687 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_red/txt/0.png
-  artifactKey: Guid(1ec4955418638f449ad3aae0b52e6fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_red/txt/0.png using Guid(1ec4955418638f449ad3aae0b52e6fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267a6eaf16d0ec237e6a1cd1dd18b547') in 0.004431 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/1.png
-  artifactKey: Guid(f22923dacfdec0640ae8e2429cd655b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_pink/txt/1.png using Guid(f22923dacfdec0640ae8e2429cd655b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a702b2be499d52e7f07cc6004dafbdba') in 0.003784 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/text/2.png
-  artifactKey: Guid(b541cf181ab7c7048b935f5d186531dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/text/2.png using Guid(b541cf181ab7c7048b935f5d186531dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2244b4d9724f71fcd2d5c0a42f4afaa6') in 0.003950 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Puzzle stage & settings GUI Pack/Image_blue/+.png
-  artifactKey: Guid(fd3d44ee6ea5f4d4c877dd3413dad12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Puzzle stage & settings GUI Pack/Image_blue/+.png using Guid(fd3d44ee6ea5f4d4c877dd3413dad12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd131d09582184e7369ad028e94325f9') in 0.006137 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
-AssetImportWorker is now disconnected from the server
-Process exiting
+  Time since last request: 671.162878 seconds.
+  path: Assets/01.Scene_GB/scene
+  artifactKey: Guid(b5bc911f9a61f944881ffdcb34a9c441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01.Scene_GB/scene using Guid(b5bc911f9a61f944881ffdcb34a9c441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93973d2dfe7ac10320f21dac32fe12e') in 0.078919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
