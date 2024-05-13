@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+/*게임 씬 로딩 화면 구현*/
 public class LoadingSceneController : MonoBehaviour
 {
     private static LoadingSceneController instance;
@@ -93,10 +93,11 @@ public class LoadingSceneController : MonoBehaviour
             yield return null;
             timer += Time.unscaledDeltaTime * 3f;
             canvasGroup.alpha = isFadeIn ? Mathf.Lerp(0f, 1f, timer) : Mathf.Lerp(1f, 0f, timer); 
-        }
+        }   
 
         if(!isFadeIn){
             gameObject.SetActive(false);
         }
     }
+
 }

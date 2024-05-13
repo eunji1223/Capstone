@@ -54,7 +54,7 @@ public class SoundManagerGB : MonoBehaviour
     }
     private void UpdateBtnImg()
     {
-        // MusicOnButton°ú MusicOffButtonÀÌ nullÀÌ ¾Æ´Ò ¶§¸¸ ÀÛµ¿ÇÏµµ·Ï È®ÀÎ
+        // MusicOnButtonï¿½ï¿½ MusicOffButtonï¿½ï¿½ nullï¿½ï¿½ ï¿½Æ´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ûµï¿½ï¿½Ïµï¿½ï¿½ï¿½ È®ï¿½ï¿½
         if (MusicOnButton != null && MusicOffButton != null)
         {
             if (muted == false)

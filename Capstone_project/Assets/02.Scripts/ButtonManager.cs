@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+/*lobby scene에서 서 있는 모드, 앉아 있는 모드 등 모드 선택 시 사용되는 button 기능 구현*/
 public class ButtonManager : MonoBehaviour
 {
     [SerializeField]

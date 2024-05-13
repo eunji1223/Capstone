@@ -12,13 +12,13 @@ public class BeforeStartGB : MonoBehaviour
     {
         if (beforeStartText != null)
         {
-            Time.timeScale = 0f; //°ÔÀÓ Á¤Áö
+            Time.timeScale = 0f; //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
             StartCoroutine(StartGame());
         }
     }
     private IEnumerator StartGame()
     {
-        beforeStartText.text = "ÁØºñ";
+        beforeStartText.text = "ì¤€ë¹„";
         startTime = Time.realtimeSinceStartup;
         yield return new WaitForSecondsRealtime(1);
         beforeStartText.text = "3";
@@ -27,9 +27,9 @@ public class BeforeStartGB : MonoBehaviour
         yield return new WaitForSecondsRealtime(1);
         beforeStartText.text = "1";
         yield return new WaitForSecondsRealtime(1);
-        beforeStartText.text = "½ÃÀÛ!";
+        beforeStartText.text = "ì‹œìž‘!";
         yield return new WaitForSecondsRealtime(1);
         beforeStartText.gameObject.SetActive(false);
-        Time.timeScale = 1f; // °ÔÀÓ ½ÃÀÛ
+        Time.timeScale = 1f; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     }
 }
