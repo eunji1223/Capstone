@@ -1,5 +1,5 @@
 using UnityEngine;
-using TMPro; // TextMeshPro ³×ÀÓ½ºÆäÀÌ½º »ç¿ë
+using TMPro; // TextMeshPro ï¿½ï¿½ï¿½Ó½ï¿½ï¿½ï¿½ï¿½Ì½ï¿½ ï¿½ï¿½ï¿½
 using UnityEngine.UI;
 
 public class ResultManagerGB : MonoBehaviour
@@ -15,32 +15,32 @@ public class ResultManagerGB : MonoBehaviour
 
     void Start()
     {
-        // GameManager¿¡¼­ Á¡¼ö °¡Á®¿À±â
+        // GameManagerï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         int successScore = GameManager.instance.GetSuccessScore();
         int failScore = GameManager.instance.GetFailScore();
-        int totalRounds = 5; // ¶ó¿îµå ¼ö¸¦ 5·Î °íÁ¤
-        // GameManager¿¡¼­ ·ÎµåµÈ ¾ÀÀÇ ÃÑ °³¼ö °¡Á®¿À±â
+        int totalRounds = 5; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 5ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+        // GameManagerï¿½ï¿½ï¿½ï¿½ ï¿½Îµï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         int loadedScenesCount = GameManager.instance.GetScenesLoadedCount();
 
-        // ¼º°ø ¿©ºÎ¿¡ µû¸¥ ÅØ½ºÆ® ¾÷µ¥ÀÌÆ®
+        // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Î¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ø½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®
         if (successScore > failScore)
         {
-            resultText.text = "¼º°ø!";
+            resultText.text = "ì„±ê³µ!";
         }
         else if (failScore > successScore)
         {
-            resultText.text = "½ÇÆĞ!";
+            resultText.text = "ì‹¤íŒ¨!";
         }
 
 
-        // °ÔÀÓ ¾ÀÀÇ °³¼ö ¾÷µ¥ÀÌÆ®
-        roundsText.text = "µ¿ÀÛ °³¼ö: " + loadedScenesCount.ToString();
-        successCountText.text = "¼º°ø È½¼ö: " + successScore.ToString() +" / 5";
+        // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®
+        roundsText.text = "ë™ì‘ ê°¯ìˆ˜: " + loadedScenesCount.ToString();
+        successCountText.text = "ì„±ê³µ íšŸìˆ˜: " + successScore.ToString() +" / 5";
 
-        float successRate = ((float)successScore / totalRounds) * 100; // ¼º°ø·ü °è»ê
-        successRateText.text = "¼º°ø·ü: " + successRate.ToString("F2") + "%"; // ¼Ò¼öÁ¡ µÑÂ° ÀÚ¸®±îÁö Ç¥½Ã
+        float successRate = ((float)successScore / totalRounds) * 100; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
+        successRateText.text = "ì„±ê³µë¥ : " + successRate.ToString("F2") + "%"; // ï¿½Ò¼ï¿½ï¿½ï¿½ ï¿½ï¿½Â° ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½
 
-        // ÀÌ¹ÌÁö Ç¥½Ã Á¦¾î
+        // ï¿½Ì¹ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         image1.SetActive(successScore == 3);
         image2.SetActive(successScore == 4);
         image3.SetActive(successScore == 5);

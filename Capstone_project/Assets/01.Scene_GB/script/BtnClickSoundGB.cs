@@ -11,7 +11,7 @@ public class BtnClickSoundGB : MonoBehaviour
 
     private void Awake()
     {
-        var soundManagers = FindObjectsOfType<SoundManager>();
+        var soundManagers = FindObjectsOfType<SoundManagerGB>();
         if (soundManagers.Length == 1)
         {
             DontDestroyOnLoad(gameObject);
@@ -47,7 +47,7 @@ public class BtnClickSoundGB : MonoBehaviour
 
     private void UpdateButtonIcons()
     {
-        // SoundOnButton°ú SoundOffButtonÀÌ nullÀÌ ¾Æ´ÑÁö È®ÀÎ
+        // SoundOnButtonï¿½ï¿½ SoundOffButtonï¿½ï¿½ nullï¿½ï¿½ ï¿½Æ´ï¿½ï¿½ï¿½ È®ï¿½ï¿½
         if (SoundOnButton != null && SoundOffButton != null)
         {
             if (!isMuted)
