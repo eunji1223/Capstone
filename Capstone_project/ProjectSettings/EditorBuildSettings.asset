@@ -18,15 +18,12 @@ EditorBuildSettings:
     path: Assets/01.Scenes/StatsScene-1.unity
     guid: e07b8262dce0c4428a0acd1f4de219a4
   - enabled: 1
-    path: Assets/01.Scene_GB/scene/Startscene.unity
+    path: Assets/01.Scene_GB/scene/StartScene.unity
     guid: 9380d68eaddab8a4aaba62067008ecd2
   - enabled: 1
-    path: Assets/01.Scene_GB/scene/Stagescene.unity
-    guid: 64b1e700686d51a4fa5026d65042a6db
-  - enabled: 1
-    path: Assets/01.Scene_GB/scene/Gamescene.unity
+    path: Assets/01.Scene_GB/scene/GameScene.unity
     guid: 80c059e4a0046954e9d50b08d39dbb49
   - enabled: 1
-    path: Assets/01.Scene_GB/scene/Lastscene.unity
+    path: Assets/01.Scene_GB/scene/LastScene.unity
     guid: 67b75b80648f42f4bbf0cbe6eb970c05
   m_configObjects: {}

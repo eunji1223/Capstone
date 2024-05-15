@@ -1,14 +1,14 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-using TMPro; // TextMeshPro ³×ÀÓ½ºÆäÀÌ½º »ç¿ë
-using UnityEngine.SceneManagement; // ¾À °ü¸®¸¦ À§ÇÑ ³×ÀÓ½ºÆäÀÌ½º Ãß°¡
+using TMPro; // TextMeshPro ï¿½ï¿½ï¿½Ó½ï¿½ï¿½ï¿½ï¿½Ì½ï¿½ ï¿½ï¿½ï¿½
+using UnityEngine.SceneManagement; // ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ó½ï¿½ï¿½ï¿½ï¿½Ì½ï¿½ ï¿½ß°ï¿½
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance; // ½Ì±ÛÅæ ÀÎ½ºÅÏ½º
+    public static GameManager instance; // ï¿½Ì±ï¿½ï¿½ï¿½ ï¿½Î½ï¿½ï¿½Ï½ï¿½
 
-    // Ãß°¡µÈ ºÎºÐ: ¾À ·Îµå È½¼ö¸¦ ÃßÀû
+    // ï¿½ß°ï¿½ï¿½ï¿½ ï¿½Îºï¿½: ï¿½ï¿½ ï¿½Îµï¿½ È½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     private int scenesLoadedCount = 0;
 
     public Image successImage;
@@ -28,41 +28,37 @@ public class GameManager : MonoBehaviour
     
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        scenesLoadedCount++; // ¾ÀÀÌ ·ÎµåµÉ ¶§¸¶´Ù Ä«¿îÆ® Áõ°¡
+        scenesLoadedCount++; // ï¿½ï¿½ï¿½ï¿½ ï¿½Îµï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½
         
     }
 
     public int GetScenesLoadedCount()
     {
-        return scenesLoadedCount; // ·ÎµåµÈ ¾ÀÀÇ ÃÑ °³¼ö ¹ÝÈ¯
+        return scenesLoadedCount; // ï¿½Îµï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯
     }
-   
-
-   
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject); // ¾ÀÀÌ ¹Ù²î¾îµµ ÆÄ±«µÇÁö ¾ÊÀ½
-            SceneManager.sceneLoaded += OnSceneLoaded; // ¾ÀÀÌ ·ÎµåµÉ ¶§¸¶´Ù OnSceneLoaded È£Ãâ
+            DontDestroyOnLoad(gameObject); // ï¿½ï¿½ï¿½ï¿½ ï¿½Ù²ï¿½îµµ ï¿½Ä±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+            SceneManager.sceneLoaded += OnSceneLoaded; // ï¿½ï¿½ï¿½ï¿½ ï¿½Îµï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ OnSceneLoaded È£ï¿½ï¿½
+            // SceneManager.sceneLoaded -= OnSceneLoaded; ì¶”ê°€ê°€ í•„ìš”í•¨
         }
         else
         {
-            Destroy(gameObject); // Áßº¹ ÀÎ½ºÅÏ½º Á¦°Å
+            Destroy(gameObject); // ï¿½ßºï¿½ ï¿½Î½ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½
         }
-
         successImage.gameObject.SetActive(false);
         failImage.gameObject.SetActive(false);
         gameButton.onClick.AddListener(HandleButtonClick);
         UpdateScoreText();
-        timeText.text = "10"; // ÃÊ±â Á¦ÇÑ ½Ã°£ ÅØ½ºÆ® ¼³Á¤
+        timeText.text = "10"; // ï¿½Ê±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ ï¿½Ø½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½
 
-        StartRound(); // °ÔÀÓ ½ÃÀÛÀ» À§ÇÑ È£Ãâ
+        StartRound(); // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½
     }
-
 
     // Update is called once per frame
     void Update()
@@ -72,7 +68,7 @@ public class GameManager : MonoBehaviour
             if (timeRemaining > 0)
             {
                 timeRemaining -= Time.deltaTime;
-                UpdateTimeText(); // Á¦ÇÑ ½Ã°£ ÅØ½ºÆ® ¾÷µ¥ÀÌÆ®
+                UpdateTimeText(); // ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ ï¿½Ø½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®
             }
             else
             {
@@ -83,10 +79,10 @@ public class GameManager : MonoBehaviour
 
     void UpdateTimeText()
     {
-        // timeText°¡ nullÀÌ ¾Æ´Ò ¶§¸¸ ½ÇÇà
+        // timeTextï¿½ï¿½ nullï¿½ï¿½ ï¿½Æ´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         if (timeText != null)
         {
-            timeText.text = Mathf.Ceil(timeRemaining).ToString(); // Á¦ÇÑ ½Ã°£À» ¹Ý¿Ã¸²ÇÏ¿© Ç¥½Ã
+            timeText.text = Mathf.Ceil(timeRemaining).ToString(); // ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ï¿½ï¿½ ï¿½Ý¿Ã¸ï¿½ï¿½Ï¿ï¿½ Ç¥ï¿½ï¿½
         }
         else
         {
@@ -109,9 +105,9 @@ public class GameManager : MonoBehaviour
     void StartRound()
     {
         isGameActive = true;
-        timeRemaining = 10; // 10ÃÊ Á¦ÇÑ½Ã°£ Àç¼³Á¤
+        timeRemaining = 10; // 10ï¿½ï¿½ ï¿½ï¿½ï¿½Ñ½Ã°ï¿½ ï¿½ç¼³ï¿½ï¿½
 
-        // successImage¿Í failImage°¡ nullÀÌ ¾Æ´Ò ¶§¸¸ ½ÇÇà
+        // successImageï¿½ï¿½ failImageï¿½ï¿½ nullï¿½ï¿½ ï¿½Æ´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         if (successImage != null && failImage != null)
         {
             successImage.gameObject.SetActive(false);
@@ -134,7 +130,7 @@ public class GameManager : MonoBehaviour
     void EndRound(bool isSuccess)
     {
         isGameActive = false;
-        timeRemaining = 10; // Á¦ÇÑ ½Ã°£ ÃÊ±âÈ­
+        timeRemaining = 10; // ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ ï¿½Ê±ï¿½È­
         currentRound++;
 
         if (isSuccess)
@@ -154,29 +150,29 @@ public class GameManager : MonoBehaviour
 
     IEnumerator ShowResultAndContinue()
     {
-        yield return new WaitForSeconds(2); // 2ÃÊ µ¿¾È °á°ú Ç¥½Ã
+        yield return new WaitForSeconds(2); // 2ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½
         successImage.gameObject.SetActive(false);
         failImage.gameObject.SetActive(false);
 
-        CheckGameEnd(); // °ÔÀÓ Á¾·á Ã¼Å©
+        CheckGameEnd(); // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ã¼Å©
     }
 
     void UpdateScoreText()
     {
-        successScoreText.text = "¼º°ø : " + successScore;
-        failScoreText.text = "½ÇÆÐ : " + failScore;
+        successScoreText.text = "ì„±ê³µ : " + successScore;
+        failScoreText.text = "ì‹¤íŒ¨ : " + failScore;
     }
 
     void CheckGameEnd()
     {
         if (currentRound >= totalRounds)
         {
-            // ¸ðµç ¶ó¿îµå°¡ ¿Ï·áµÇ¸é ´ÙÀ½ ¾ÀÀ¸·Î ÀüÈ¯
+            // ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½å°¡ ï¿½Ï·ï¿½Ç¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         else
         {
-            StartRound(); // ´ÙÀ½ ¶ó¿îµå ½ÃÀÛ
+            StartRound(); // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         }
     }
     public int GetSuccessScore()
