@@ -8,4 +8,8 @@ public class MoveManager : MonoBehaviour
     public void MoveToLoadingScene(){
         LoadingSceneController.Instance.LoadScene("GameScene");
     }
+
+    public void MoveToInfoScene(){
+        SceneManager.LoadScene("StatsScene-1");
+    }
 }

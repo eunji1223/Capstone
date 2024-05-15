@@ -36,24 +36,21 @@ public class GameManager : MonoBehaviour
     {
         return scenesLoadedCount; // �ε�� ���� �� ���� ��ȯ
     }
-   
-
-   
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject); // ���� �ٲ� �ı����� ����
             SceneManager.sceneLoaded += OnSceneLoaded; // ���� �ε�� ������ OnSceneLoaded ȣ��
+            // SceneManager.sceneLoaded -= OnSceneLoaded; 추가가 필요함
         }
         else
         {
             Destroy(gameObject); // �ߺ� �ν��Ͻ� ����
         }
-
         successImage.gameObject.SetActive(false);
         failImage.gameObject.SetActive(false);
         gameButton.onClick.AddListener(HandleButtonClick);
@@ -62,7 +59,6 @@ public class GameManager : MonoBehaviour
 
         StartRound(); // ���� ������ ���� ȣ��
     }
-
 
     // Update is called once per frame
     void Update()
