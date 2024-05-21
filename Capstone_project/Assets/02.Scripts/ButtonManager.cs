@@ -33,6 +33,7 @@ public class ButtonManager : MonoBehaviour
     public TMP_Text lobbyUserName;
     public TMP_Text userSetName;
     public TMP_InputField inputField;
+    public Button startButton;
 
     private bool supplementationMode = false;
     private int defaultActionNUmber = 5;
@@ -49,6 +50,7 @@ public class ButtonManager : MonoBehaviour
         level.SetActive(false);
         userSet.SetActive(false);
         supplementationMode = false;
+        startButton.interactable = false;
         actionNumber = defaultActionNUmber;
         SetNumber();
         foreach(Button button in buttons){
@@ -58,7 +60,7 @@ public class ButtonManager : MonoBehaviour
 
     void OnChooseGameModeClick(){
         Button clickedButton = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponent<Button>();
-
+        startButton.interactable = true;
         RectTransform buttonRectTransform = clickedButton.GetComponent<RectTransform>();
         RectTransform levelRectTransform = level.GetComponent<RectTransform>();
         levelRectTransform.anchoredPosition = new Vector3 (buttonRectTransform.anchoredPosition.x, buttonRectTransform.anchoredPosition.y - 120);
@@ -114,7 +116,9 @@ public class ButtonManager : MonoBehaviour
     }
 
     public void OnClickCheckButton(){
-        lobbyUserCharacter.image.sprite = recentUserCharacter;
+        if(recentUserCharacter != null){
+            lobbyUserCharacter.image.sprite = recentUserCharacter;
+        }
         userSet.SetActive(false);
     }
 

@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     public Image successImage;
     public Image failImage;
     public TextMeshProUGUI successScoreText;
-    public TextMeshProUGUI failScoreText;
+    public TextMeshProUGUI roundText;
     public TextMeshProUGUI timeText;
     public Button gameButton;
 
@@ -160,7 +160,7 @@ public class GameManager : MonoBehaviour
     void UpdateScoreText()
     {
         successScoreText.text = "성공 : " + successScore;
-        failScoreText.text = "실패 : " + failScore;
+        roundText.text = currentRound + " / " + totalRounds;
     }
 
     void CheckGameEnd()
