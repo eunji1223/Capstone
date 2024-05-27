@@ -1,14 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-using TMPro; // TextMeshPro ���ӽ����̽� ���
-using UnityEngine.SceneManagement; // �� ������ ���� ���ӽ����̽� �߰�
+using TMPro; 
+using UnityEngine.SceneManagement; 
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance; // �̱��� �ν��Ͻ�
+    public static GameManager instance; 
 
-    // �߰��� �κ�: �� �ε� Ƚ���� ����
     private int scenesLoadedCount = 0;
 
     public Image successImage;
@@ -28,13 +27,13 @@ public class GameManager : MonoBehaviour
     
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        scenesLoadedCount++; // ���� �ε�� ������ ī��Ʈ ����
+        scenesLoadedCount++; 
         
     }
 
     public int GetScenesLoadedCount()
     {
-        return scenesLoadedCount; // �ε�� ���� �� ���� ��ȯ
+        return scenesLoadedCount; 
     }
 
     // Start is called before the first frame update
@@ -43,21 +42,23 @@ public class GameManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject); // ���� �ٲ� �ı����� ����
-            SceneManager.sceneLoaded += OnSceneLoaded; // ���� �ε�� ������ OnSceneLoaded ȣ��
+            DontDestroyOnLoad(gameObject); 
+            SceneManager.sceneLoaded += OnSceneLoaded; 
             // SceneManager.sceneLoaded -= OnSceneLoaded; 추가가 필요함
         }
         else
         {
-            Destroy(gameObject); // �ߺ� �ν��Ͻ� ����
+            Destroy(gameObject); 
         }
         successImage.gameObject.SetActive(false);
         failImage.gameObject.SetActive(false);
         gameButton.onClick.AddListener(HandleButtonClick);
+        totalRounds = GamePlayData.actionCount;
         UpdateScoreText();
-        timeText.text = "10"; // �ʱ� ���� �ð� �ؽ�Ʈ ����
+        // 약점 보완 모드 true라면 보완 모드 실행 함수 호출
+        timeText.text = "10";
 
-        StartRound(); // ���� ������ ���� ȣ��
+        StartRound(); 
     }
 
     // Update is called once per frame
@@ -68,7 +69,7 @@ public class GameManager : MonoBehaviour
             if (timeRemaining > 0)
             {
                 timeRemaining -= Time.deltaTime;
-                UpdateTimeText(); // ���� �ð� �ؽ�Ʈ ������Ʈ
+                UpdateTimeText(); 
             }
             else
             {
@@ -79,10 +80,9 @@ public class GameManager : MonoBehaviour
 
     void UpdateTimeText()
     {
-        // timeText�� null�� �ƴ� ���� ����
         if (timeText != null)
         {
-            timeText.text = Mathf.Ceil(timeRemaining).ToString(); // ���� �ð��� �ݿø��Ͽ� ǥ��
+            timeText.text = Mathf.Ceil(timeRemaining).ToString(); 
         }
         else
         {
@@ -105,9 +105,8 @@ public class GameManager : MonoBehaviour
     void StartRound()
     {
         isGameActive = true;
-        timeRemaining = 10; // 10�� ���ѽð� �缳��
+        timeRemaining = 10; 
 
-        // successImage�� failImage�� null�� �ƴ� ���� ����
         if (successImage != null && failImage != null)
         {
             successImage.gameObject.SetActive(false);
@@ -130,7 +129,7 @@ public class GameManager : MonoBehaviour
     void EndRound(bool isSuccess)
     {
         isGameActive = false;
-        timeRemaining = 10; // ���� �ð� �ʱ�ȭ
+        timeRemaining = 10; 
         currentRound++;
 
         if (isSuccess)
@@ -150,11 +149,11 @@ public class GameManager : MonoBehaviour
 
     IEnumerator ShowResultAndContinue()
     {
-        yield return new WaitForSeconds(2); // 2�� ���� ��� ǥ��
+        yield return new WaitForSeconds(2); 
         successImage.gameObject.SetActive(false);
         failImage.gameObject.SetActive(false);
 
-        CheckGameEnd(); // ���� ���� üũ
+        CheckGameEnd(); 
     }
 
     void UpdateScoreText()
@@ -167,12 +166,11 @@ public class GameManager : MonoBehaviour
     {
         if (currentRound >= totalRounds)
         {
-            // ��� ���尡 �Ϸ�Ǹ� ���� ������ ��ȯ
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         else
         {
-            StartRound(); // ���� ���� ����
+            StartRound(); 
         }
     }
     public int GetSuccessScore()

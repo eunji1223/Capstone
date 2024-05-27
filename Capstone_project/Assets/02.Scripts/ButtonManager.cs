@@ -41,7 +41,32 @@ public class ButtonManager : MonoBehaviour
     private int actionNumber;
     private Sprite recentUserCharacter;
 
-    
+    private static ButtonManager instance;
+
+    public static ButtonManager Instance
+    {
+        get
+        {
+            if (instance == null)
+            {
+                instance = FindObjectOfType<ButtonManager>();
+            }
+            return instance;
+        }
+    }
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else if (instance != this)
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void Start(){
         nameInputField.SetActive(false);
@@ -57,6 +82,7 @@ public class ButtonManager : MonoBehaviour
             button.onClick.AddListener(OnChooseGameModeClick);
         }
     }
+
 
     void OnChooseGameModeClick(){
         Button clickedButton = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponent<Button>();
@@ -155,4 +181,16 @@ public class ButtonManager : MonoBehaviour
         lobbyUserName.text = newName;
         nameInputField.SetActive(false);
     }
+
+    public void SaveGameData(){
+        GamePlayData.actionCount = actionNumber;
+        GamePlayData.supplementationMode = this.supplementationMode;
+    }
+
+}
+
+static class GamePlayData{
+    public static int actionCount;
+    public static bool supplementationMode;
+
 }
