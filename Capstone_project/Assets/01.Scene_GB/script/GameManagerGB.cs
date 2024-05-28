@@ -1,20 +1,22 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-using TMPro; // TextMeshPro ���ӽ����̽� ���
-using UnityEngine.SceneManagement; // �� ������ ���� ���ӽ����̽� �߰�
+using TMPro; 
+using UnityEngine.SceneManagement;
+using UnityEngine.Video;
+using System.Collections.Generic;
+using Unity.VisualScripting;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance; // �̱��� �ν��Ͻ�
+    public static GameManager instance; 
 
-    // �߰��� �κ�: �� �ε� Ƚ���� ����
     private int scenesLoadedCount = 0;
 
     public Image successImage;
     public Image failImage;
     public TextMeshProUGUI successScoreText;
-    public TextMeshProUGUI failScoreText;
+    public TextMeshProUGUI roundText;
     public TextMeshProUGUI timeText;
     public Button gameButton;
 
@@ -23,18 +25,28 @@ public class GameManager : MonoBehaviour
     private float timeRemaining = 10;
     private bool isGameActive = false;
     private int totalRounds = 5;
+    public int TotalRounds{
+        get{ return totalRounds; }
+    }
     private int currentRound = 0;
+
+    [SerializeField]
+    private List<VideoClip> videoClips = new List<VideoClip>();
+    private List<string> videoMessages = new List<string>(){"보자기", "주먹", "가위", "최고"};
+    [SerializeField]
+    private TMP_Text guideText;
+    [SerializeField]
+    private VideoPlayer gameCharacter;
 
     
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        scenesLoadedCount++; // ���� �ε�� ������ ī��Ʈ ����
-        
+        scenesLoadedCount++; 
     }
 
     public int GetScenesLoadedCount()
     {
-        return scenesLoadedCount; // �ε�� ���� �� ���� ��ȯ
+        return scenesLoadedCount; 
     }
 
     // Start is called before the first frame update
@@ -43,21 +55,21 @@ public class GameManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject); // ���� �ٲ� �ı����� ����
-            SceneManager.sceneLoaded += OnSceneLoaded; // ���� �ε�� ������ OnSceneLoaded ȣ��
+            DontDestroyOnLoad(gameObject); 
+            SceneManager.sceneLoaded += OnSceneLoaded; 
             // SceneManager.sceneLoaded -= OnSceneLoaded; 추가가 필요함
         }
         else
         {
-            Destroy(gameObject); // �ߺ� �ν��Ͻ� ����
+            Destroy(gameObject); 
         }
         successImage.gameObject.SetActive(false);
         failImage.gameObject.SetActive(false);
         gameButton.onClick.AddListener(HandleButtonClick);
+        totalRounds = GamePlayData.actionCount;
         UpdateScoreText();
-        timeText.text = "10"; // �ʱ� ���� �ð� �ؽ�Ʈ ����
-
-        StartRound(); // ���� ������ ���� ȣ��
+        // 약점 보완 모드 true라면 보완 모드 실행 함수 호출
+        timeText.text = "10"; 
     }
 
     // Update is called once per frame
@@ -65,10 +77,14 @@ public class GameManager : MonoBehaviour
     {
         if (isGameActive)
         {
+            if(Input.GetKey(KeyCode.Z))
+            {
+                HandleButtonClick();
+            }
             if (timeRemaining > 0)
             {
                 timeRemaining -= Time.deltaTime;
-                UpdateTimeText(); // ���� �ð� �ؽ�Ʈ ������Ʈ
+                UpdateTimeText(); 
             }
             else
             {
@@ -77,12 +93,17 @@ public class GameManager : MonoBehaviour
         }
     }
 
+
+    private bool OnKeyboardInput(KeyCode z)
+    {
+        throw new System.NotImplementedException();
+    }
+
     void UpdateTimeText()
     {
-        // timeText�� null�� �ƴ� ���� ����
         if (timeText != null)
         {
-            timeText.text = Mathf.Ceil(timeRemaining).ToString(); // ���� �ð��� �ݿø��Ͽ� ǥ��
+            timeText.text = Mathf.Ceil(timeRemaining).ToString(); 
         }
         else
         {
@@ -102,12 +123,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void StartRound()
+    public void StartRound()
     {
         isGameActive = true;
-        timeRemaining = 10; // 10�� ���ѽð� �缳��
-
-        // successImage�� failImage�� null�� �ƴ� ���� ����
+        timeRemaining = 10;
+        int ranNum = Random.RandomRange(0, 3);
+        gameCharacter.clip = videoClips[ranNum];
+        guideText.text = "동작을 따라해보세요(" + videoMessages[ranNum] + ")";
         if (successImage != null && failImage != null)
         {
             successImage.gameObject.SetActive(false);
@@ -124,13 +146,14 @@ public class GameManager : MonoBehaviour
                 Debug.LogWarning("failImage is not assigned!");
             }
         }
+        
         UpdateTimeText();
     }
 
     void EndRound(bool isSuccess)
     {
         isGameActive = false;
-        timeRemaining = 10; // ���� �ð� �ʱ�ȭ
+        timeRemaining = 10; 
         currentRound++;
 
         if (isSuccess)
@@ -150,29 +173,28 @@ public class GameManager : MonoBehaviour
 
     IEnumerator ShowResultAndContinue()
     {
-        yield return new WaitForSeconds(2); // 2�� ���� ��� ǥ��
+        yield return new WaitForSeconds(2); 
         successImage.gameObject.SetActive(false);
         failImage.gameObject.SetActive(false);
 
-        CheckGameEnd(); // ���� ���� üũ
+        CheckGameEnd(); 
     }
 
     void UpdateScoreText()
     {
         successScoreText.text = "성공 : " + successScore;
-        failScoreText.text = "실패 : " + failScore;
+        roundText.text = currentRound + " / " + totalRounds;
     }
 
     void CheckGameEnd()
     {
         if (currentRound >= totalRounds)
         {
-            // ��� ���尡 �Ϸ�Ǹ� ���� ������ ��ȯ
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         else
         {
-            StartRound(); // ���� ���� ����
+            StartRound(); 
         }
     }
     public int GetSuccessScore()

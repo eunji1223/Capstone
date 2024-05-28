@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MoveManager : MonoBehaviour
 {
     public void MoveToLoadingScene(){
+        ButtonManager.Instance.SaveGameData();
         LoadingSceneController.Instance.LoadScene("GameScene");
     }
 
