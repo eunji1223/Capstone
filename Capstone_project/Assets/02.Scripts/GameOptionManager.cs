@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 /* 게임 씬 버튼 또는 옵션 기능 구현 --> 추후 다른 cs파일의 같은 기능끼리 통합할 예정 */
 public class GameOptionManager : MonoBehaviour
 {
@@ -11,7 +11,8 @@ public class GameOptionManager : MonoBehaviour
     [SerializeField]
     private GameObject optionSet;
     [SerializeField]
-    public GameObject helpWindow;
+    private GameObject helpWindow;
+
 
     void Awake()
     {
@@ -26,7 +27,8 @@ public class GameOptionManager : MonoBehaviour
     }
     public void OptionToOption()
     {
-        optionWindow.SetActive(true);
+        optionWindow.SetActive(false);
+        optionSet.SetActive(true);
     }
     public void OptionConfirm()
     {
@@ -35,8 +37,8 @@ public class GameOptionManager : MonoBehaviour
     }
     public void OptionToOptionOut()
     {
-        optionWindow.SetActive(false);
-        optionSet.SetActive(true);
+        optionWindow.SetActive(true);
+        optionSet.SetActive(false);
     }
     public void help()
     {

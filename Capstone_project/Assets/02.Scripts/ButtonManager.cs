@@ -42,6 +42,7 @@ public class ButtonManager : MonoBehaviour
     private Sprite recentUserCharacter;
 
     private static ButtonManager instance;
+    private UserInformation userInformation;
 
     public static ButtonManager Instance
     {
@@ -69,6 +70,9 @@ public class ButtonManager : MonoBehaviour
     }
 
     void Start(){
+        userInformation = InfoManager.instance.UserInformation;
+        lobbyUserName.text = userInformation.userName;
+        userSetName.text = userInformation.userName;
         nameInputField.SetActive(false);
         modeSelectObject.SetActive(false);
         option.SetActive(false);
@@ -156,6 +160,11 @@ public class ButtonManager : MonoBehaviour
         option.SetActive(false);
     }
 
+    public void OnMoveSite()
+    {
+        Application.OpenURL("https://honeymind.co.kr/");
+    }
+
     public void OnChangeCharacter(Button button){
         
         Sprite newSprite = button.GetComponent<Image>().sprite;
@@ -176,9 +185,10 @@ public class ButtonManager : MonoBehaviour
     public void SubmitName()
     {
         string newName = nameInputField.GetComponentInChildren<TMP_InputField>().text;
-        Debug.Log("새로운 이름: " + newName);
+        
         userSetName.text = newName;
         lobbyUserName.text = newName;
+        userInformation.userName = newName;
         nameInputField.SetActive(false);
     }
 

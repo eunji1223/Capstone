@@ -2,7 +2,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using TMPro; 
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement;
+using UnityEngine.Video;
+using System.Collections.Generic;
+using Unity.VisualScripting;
 
 public class GameManager : MonoBehaviour
 {
@@ -22,13 +25,23 @@ public class GameManager : MonoBehaviour
     private float timeRemaining = 10;
     private bool isGameActive = false;
     private int totalRounds = 5;
+    public int TotalRounds{
+        get{ return totalRounds; }
+    }
     private int currentRound = 0;
+
+    [SerializeField]
+    private List<VideoClip> videoClips = new List<VideoClip>();
+    private List<string> videoMessages = new List<string>(){"보자기", "주먹", "가위", "최고"};
+    [SerializeField]
+    private TMP_Text guideText;
+    [SerializeField]
+    private VideoPlayer gameCharacter;
 
     
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         scenesLoadedCount++; 
-        
     }
 
     public int GetScenesLoadedCount()
@@ -56,9 +69,7 @@ public class GameManager : MonoBehaviour
         totalRounds = GamePlayData.actionCount;
         UpdateScoreText();
         // 약점 보완 모드 true라면 보완 모드 실행 함수 호출
-        timeText.text = "10";
-
-        StartRound(); 
+        timeText.text = "10"; 
     }
 
     // Update is called once per frame
@@ -66,6 +77,10 @@ public class GameManager : MonoBehaviour
     {
         if (isGameActive)
         {
+            if(Input.GetKey(KeyCode.Z))
+            {
+                HandleButtonClick();
+            }
             if (timeRemaining > 0)
             {
                 timeRemaining -= Time.deltaTime;
@@ -76,6 +91,12 @@ public class GameManager : MonoBehaviour
                 EndRound(false);
             }
         }
+    }
+
+
+    private bool OnKeyboardInput(KeyCode z)
+    {
+        throw new System.NotImplementedException();
     }
 
     void UpdateTimeText()
@@ -102,11 +123,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void StartRound()
+    public void StartRound()
     {
         isGameActive = true;
-        timeRemaining = 10; 
-
+        timeRemaining = 10;
+        int ranNum = Random.RandomRange(0, 3);
+        gameCharacter.clip = videoClips[ranNum];
+        guideText.text = "동작을 따라해보세요(" + videoMessages[ranNum] + ")";
         if (successImage != null && failImage != null)
         {
             successImage.gameObject.SetActive(false);
@@ -123,6 +146,7 @@ public class GameManager : MonoBehaviour
                 Debug.LogWarning("failImage is not assigned!");
             }
         }
+        
         UpdateTimeText();
     }
 

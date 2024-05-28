@@ -8,10 +8,11 @@ using UnityEngine.UI;
 
 public class InfoManager : MonoBehaviour
 {
-    private static InfoManager instance;
+    public static InfoManager instance;
     protected bool isFirstTime = true;
     public TMP_InputField inputField_id;
     public TMP_InputField inputField_pw;
+    public TMP_InputField inputField_name;
 
     [SerializeField]
     private GameObject MembershipSet_id;
@@ -21,8 +22,15 @@ public class InfoManager : MonoBehaviour
     private GameObject MembershipSet_pw;
     [SerializeField]
     private TMP_Text matterText_pw;
+    [SerializeField]
+    private GameObject nameSet;
+    [SerializeField]
+    private TMP_Text matterText_name;
 
     private UserInformation userInformation;
+    public UserInformation UserInformation{
+        get{ return userInformation; }
+    }
 
 
     void Awake()
@@ -31,12 +39,15 @@ public class InfoManager : MonoBehaviour
             userInformation = new UserInformation();
             matterText_pw.gameObject.SetActive(false);
             matterText_id.gameObject.SetActive(false);
+            matterText_name.gameObject.SetActive(false);
             MembershipSet_id.SetActive(true);
             MembershipSet_pw.SetActive(false);
+            nameSet.SetActive(false);
         }
         else{
             MembershipSet_id.SetActive(false);
             MembershipSet_pw.SetActive(false);
+            nameSet.SetActive(false);
         }
         if(instance == null){
             instance = this;
@@ -45,6 +56,24 @@ public class InfoManager : MonoBehaviour
         else if(instance != this)
         {
             Destroy(gameObject);
+        }
+    }
+
+    void Update()
+    {
+        if(Input.GetKey(KeyCode.Return))
+        {
+            if(MembershipSet_id.activeSelf == true)
+            {
+                RegisterButton_ID();
+            }
+            else if(MembershipSet_pw.activeSelf == true)
+            {
+                RegisterButton_PW();
+            }
+            else if(nameSet.activeSelf == true){
+                RegisterButton_Name();
+            }
         }
     }
 
@@ -75,7 +104,7 @@ public class InfoManager : MonoBehaviour
             matterText_id.gameObject.SetActive(true);
         }
         else{
-            userInformation.userID = matterText_id.text;
+            userInformation.userID = inputField_id.text;
             matterText_id.gameObject.SetActive(false);
             MembershipSet_id.SetActive(false);
             MembershipSet_pw.SetActive(true);
@@ -95,18 +124,35 @@ public class InfoManager : MonoBehaviour
         }
         else
         {
-            userInformation.userPW = matterText_pw.text;
+            userInformation.userPW = inputField_pw.text;
             matterText_pw.gameObject.SetActive(false);
             MembershipSet_pw.SetActive(false);
+            nameSet.SetActive(true);
         }
     }
 
-}
-
-class UserInformation
-{
-    public string userName;
-    public string userID;
-    public string userPW;
+    public void RegisterButton_Name(){
+        if(inputField_name.text.Length > 8)
+        {
+            matterText_name.text = "닉네임의 길이가 너무 깁니다.";
+            matterText_name.gameObject.SetActive(true);
+        }
+        else if(inputField_name.text.Length < 2){
+            matterText_name.text = "닉네임의 길이가 너무 짧습니다.";
+            matterText_name.gameObject.SetActive(true);
+        }
+        else if(Regex.IsMatch(inputField_pw.text, @"[^\w\d*!?]"))
+        {
+            matterText_name.text = "특수 문자는 사용하실 수 없습니다.";
+            matterText_name.gameObject.SetActive(true);
+        }
+        else
+        {
+            userInformation.userName = inputField_name.text;
+            matterText_name.gameObject.SetActive(false);
+            nameSet.SetActive(false);
+        }
+    }
+    
 
 }

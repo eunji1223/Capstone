@@ -375,6 +375,7 @@
 "Assets/02.Scripts/MainButtonManager.cs"
 "Assets/02.Scripts/MoveManager.cs"
 "Assets/02.Scripts/ResultButtonManager.cs"
+"Assets/02.Scripts/UserInformation.cs"
 "Assets/HONETi/mobile_cartoon_GUI/Scripts/switch_scenes.cs"
 "Assets/InfoManager.cs"
 "Assets/InfoOptionManager.cs"

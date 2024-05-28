@@ -930,6 +930,13 @@ MonoBehaviour:
   roundText: {fileID: 775620822}
   timeText: {fileID: 305858704}
   gameButton: {fileID: 1211470136}
+  videoClips:
+  - {fileID: 32900000, guid: ca10830d18b0f4ed9b740eb10bfc923a, type: 3}
+  - {fileID: 32900000, guid: 161fc816b12044a9c9e5fff469128a3e, type: 3}
+  - {fileID: 32900000, guid: 107312ad57ceb4873acf3db21d03250f, type: 3}
+  - {fileID: 32900000, guid: faae0126f07d2493593c7c6928f728f1, type: 3}
+  guideText: {fileID: 787067505}
+  gameCharacter: {fileID: 378388640}
 --- !u!1 &278423455
 GameObject:
   m_ObjectHideFlags: 0
@@ -1489,7 +1496,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1556210365}
         m_TargetAssemblyTypeName: GameOptionManager, Assembly-CSharp
-        m_MethodName: OptionToOptionOut
+        m_MethodName: OptionToOption
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1733,7 +1740,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 378388636}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 161fc816b12044a9c9e5fff469128a3e, type: 3}
+  m_VideoClip: {fileID: 0}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -2012,8 +2019,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430304132}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 374.447, y: 218.85327, z: 3.1977062}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2428,8 +2435,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 700912136}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 374.447, y: 218.85327, z: 3.1977062}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2947,7 +2954,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3151,7 +3158,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1556210365}
         m_TargetAssemblyTypeName: GameOptionManager, Assembly-CSharp
-        m_MethodName: ClickCloseButton
+        m_MethodName: OptionToOptionOut
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4339,7 +4346,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1214875294
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6889,8 +6896,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974380206}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 445.80856, y: 281.61075, z: -0.5377728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
