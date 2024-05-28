@@ -33,6 +33,7 @@ public class ButtonManager : MonoBehaviour
     public TMP_Text lobbyUserName;
     public TMP_Text userSetName;
     public TMP_InputField inputField;
+    public Button startButton;
 
     private bool supplementationMode = false;
     private int defaultActionNUmber = 5;
@@ -40,15 +41,45 @@ public class ButtonManager : MonoBehaviour
     private int actionNumber;
     private Sprite recentUserCharacter;
 
-    
+    private static ButtonManager instance;
+    private UserInformation userInformation;
+
+    public static ButtonManager Instance
+    {
+        get
+        {
+            if (instance == null)
+            {
+                instance = FindObjectOfType<ButtonManager>();
+            }
+            return instance;
+        }
+    }
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else if (instance != this)
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void Start(){
+        userInformation = InfoManager.instance.UserInformation;
+        lobbyUserName.text = userInformation.userName;
+        userSetName.text = userInformation.userName;
         nameInputField.SetActive(false);
         modeSelectObject.SetActive(false);
         option.SetActive(false);
         level.SetActive(false);
         userSet.SetActive(false);
         supplementationMode = false;
+        startButton.interactable = false;
         actionNumber = defaultActionNUmber;
         SetNumber();
         foreach(Button button in buttons){
@@ -56,9 +87,10 @@ public class ButtonManager : MonoBehaviour
         }
     }
 
+
     void OnChooseGameModeClick(){
         Button clickedButton = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponent<Button>();
-
+        startButton.interactable = true;
         RectTransform buttonRectTransform = clickedButton.GetComponent<RectTransform>();
         RectTransform levelRectTransform = level.GetComponent<RectTransform>();
         levelRectTransform.anchoredPosition = new Vector3 (buttonRectTransform.anchoredPosition.x, buttonRectTransform.anchoredPosition.y - 120);
@@ -114,7 +146,9 @@ public class ButtonManager : MonoBehaviour
     }
 
     public void OnClickCheckButton(){
-        lobbyUserCharacter.image.sprite = recentUserCharacter;
+        if(recentUserCharacter != null){
+            lobbyUserCharacter.image.sprite = recentUserCharacter;
+        }
         userSet.SetActive(false);
     }
 
@@ -124,6 +158,11 @@ public class ButtonManager : MonoBehaviour
 
     public void OnClickCloseButton(){
         option.SetActive(false);
+    }
+
+    public void OnMoveSite()
+    {
+        Application.OpenURL("https://honeymind.co.kr/");
     }
 
     public void OnChangeCharacter(Button button){
@@ -146,9 +185,22 @@ public class ButtonManager : MonoBehaviour
     public void SubmitName()
     {
         string newName = nameInputField.GetComponentInChildren<TMP_InputField>().text;
-        Debug.Log("새로운 이름: " + newName);
+        
         userSetName.text = newName;
         lobbyUserName.text = newName;
+        userInformation.userName = newName;
         nameInputField.SetActive(false);
     }
+
+    public void SaveGameData(){
+        GamePlayData.actionCount = actionNumber;
+        GamePlayData.supplementationMode = this.supplementationMode;
+    }
+
+}
+
+static class GamePlayData{
+    public static int actionCount;
+    public static bool supplementationMode;
+
 }

@@ -13,13 +13,18 @@ public class ResultManagerGB : MonoBehaviour
     public GameObject image2;
     public GameObject image3;
 
+    void Awake(){
+        image1.SetActive(false);
+        image2.SetActive(false);
+        image3.SetActive(false);
+    }
+
     void Start()
     {
         // GameManager���� ���� ��������
         int successScore = GameManager.instance.GetSuccessScore();
         int failScore = GameManager.instance.GetFailScore();
-        int totalRounds = 5; // ���� ���� 5�� ����
-        // GameManager���� �ε�� ���� �� ���� ��������
+        int totalRounds = GameManager.instance.TotalRounds; 
         int loadedScenesCount = GameManager.instance.GetScenesLoadedCount();
 
         // ���� ���ο� ���� �ؽ�Ʈ ������Ʈ
@@ -34,16 +39,30 @@ public class ResultManagerGB : MonoBehaviour
 
 
         // ���� ���� ���� ������Ʈ
-        roundsText.text = "동작 갯수: " + loadedScenesCount.ToString();
-        successCountText.text = "성공 횟수: " + successScore.ToString() +" / 5";
+        roundsText.text = "동작 갯수: " + totalRounds;
+        successCountText.text = "성공 횟수: " + successScore.ToString() +" / " + totalRounds;
 
-        float successRate = ((float)successScore / totalRounds) * 100; // ������ ���
-        successRateText.text = "성공률: " + successRate.ToString("F2") + "%"; // �Ҽ��� ��° �ڸ����� ǥ��
+        float successRate = ((float)successScore / totalRounds) * 100; 
+        successRateText.text = "성공률: " + successRate.ToString("F2") + "%"; 
 
-        // �̹��� ǥ�� ����
-        image1.SetActive(successScore == 3);
-        image2.SetActive(successScore == 4);
-        image3.SetActive(successScore == 5);
+        Debug.Log(successRate);
+        if(successRate > 85.0f){
+            Debug.Log("실행1");
+            image3.SetActive(true);
+        }
+        else if(successRate > 70.0f){
+            Debug.Log("실행2");
+            image2.SetActive(true);
+        }
+        else if(successRate > 50.0f){
+            Debug.Log("실행3");
+            image1.SetActive(true);
+        }
+        else{
+            image1.SetActive(false);
+            image2.SetActive(false);
+            image3.SetActive(false);
+        }
 
     }
 }

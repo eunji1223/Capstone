@@ -30,6 +30,7 @@ public class BeforeStartGB : MonoBehaviour
         beforeStartText.text = "시작!";
         yield return new WaitForSecondsRealtime(1);
         beforeStartText.gameObject.SetActive(false);
+        GameManager.instance.StartRound();
         Time.timeScale = 1f; // ���� ����
     }
 }
