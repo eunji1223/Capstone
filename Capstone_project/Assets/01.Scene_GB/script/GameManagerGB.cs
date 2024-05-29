@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     private List<VideoClip> videoClips = new List<VideoClip>();
-    private List<string> videoMessages = new List<string>(){"보자기", "주먹", "가위", "최고"};
+    private List<string> videoMessages = new List<string>(){"가위바위보", "가위바위보", "가위바위보", "최고"};
     [SerializeField]
     private TMP_Text guideText;
     [SerializeField]
@@ -130,6 +130,7 @@ public class GameManager : MonoBehaviour
         int ranNum = Random.RandomRange(0, 3);
         gameCharacter.clip = videoClips[ranNum];
         guideText.text = "동작을 따라해보세요(" + videoMessages[ranNum] + ")";
+        
         if (successImage != null && failImage != null)
         {
             successImage.gameObject.SetActive(false);
